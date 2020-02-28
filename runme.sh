@@ -16,5 +16,5 @@ try_pass() {
 
 [ "x" != "x$LIBRARIES_API_KEY" ] || try_pass
 [ "x" != "x$LIBRARIES_API_KEY" ] || fail "Set the environment variable"
-./soti.py | sort -u > index.md
+./libraries.py | sort -u > libraries.md
 
