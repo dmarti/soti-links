@@ -1,4 +1,9 @@
-all : data/github/gdpr data/github/ccpa
+KEYWORDS = $(shell cat keywords.txt)
+
+GITDATA = $(KEYWORDS:%=data/github/%)
+LIBRARIESDATA = $(KEYWORDS:%=data/libraries/%)
+
+data : $(GITDATA) $(LIBRARIESDATA)
 
 data/github/% :
 	./curl-github.sh $@
