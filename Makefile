@@ -1,21 +1,29 @@
 KEYWORDS = $(shell cat keywords.txt)
 
-GITDATA = $(KEYWORDS:%=data/github/%)
-LIBRARIESDATA = $(KEYWORDS:%=data/libraries/%)
+# GITDATA = $(KEYWORDS:%=data/github/%)
+# LIBRARIESDATA = $(KEYWORDS:%=data/libraries/%)
 
-data : $(GITDATA) $(LIBRARIESDATA)
+SCORES = $(KEYWORDS:%=scores/%)
 
-data/github/% :
+# data : $(GITDATA) $(LIBRARIESDATA)
+
+scores : $(SCORES)
+
+data/github/% : curl-github.sh
 	./curl-github.sh $@
 
-data/libraries/% :
+data/libraries/% : curl-libraries.sh
 	./curl-libraries.sh $@
 
+scores/% : Makefile ./parse.py data/github/% data/libraries/% 
+	mkdir -p scores
+	./parse.py $@ > $@
+
 clean : 
-	true
+	rm -rf scores
 
 pristine : clean
-	rm -rf data
+	rm -rf data scores
 
 .PHONY : all clean pristine
 

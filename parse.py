@@ -43,7 +43,6 @@ class ProjectInfo(dict):
 
 class SearchResult(list):
     def __init__(self, d):
-        print(d)
         try:
             for item in d['items']:
                 self.append(ProjectInfo(item))
@@ -53,12 +52,11 @@ class SearchResult(list):
 
 
 if __name__ == '__main__':
-    result = []
-    (keyword, file) = (sys.argv[1:])
-    info = SearchResult(snarf_json(file))
-    print(info)
-    for r in info:
-        print(r)
-        print()
-    
+    destination = sys.argv[1]
+    keyword = os.path.basename(destination)
+    for file in ("data/github/%s" % keyword, "data/libraries/%s" % keyword):
+        print(file)
+        info = SearchResult(snarf_json(file))
+        for r in info:
+            print("%s %s %d %s" % (keyword, r.url, r.size, r.description))
 
