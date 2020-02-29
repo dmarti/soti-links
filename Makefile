@@ -4,7 +4,7 @@ SCORES = $(KEYWORDS:%=scores/%)
 
 all : results.html
 
-results.html : scores
+results.html : make-table.py scores
 	cat $(SCORES) | ./make-table.py > $@
 
 scores : $(SCORES)

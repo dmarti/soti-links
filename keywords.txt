@@ -3,3 +3,6 @@ gdpr
 OpenID
 OAuth
 consent
+surveillance
+journalism
+democracy
