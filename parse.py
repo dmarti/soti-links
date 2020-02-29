@@ -28,7 +28,12 @@ class ProjectInfo(dict):
 
     @property
     def description(self):
-        return self.get('description', '(missing project description)')
+        "Remove extra whitespace"
+        s = self.get('description')
+        if s:
+            return ' '.join(s.split())
+        else:
+            return '(missing project description)'
 
     @property
     def size(self):

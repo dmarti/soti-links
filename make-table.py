@@ -95,7 +95,11 @@ names = {}
 descriptions = {}
 keywords = {}
 for line in sys.stdin:
-    (keyword, url, name, score, description) = line.split(' ', 4)
+    try:
+        (keyword, url, name, score, description) = line.split(' ', 4)
+    except ValueError:
+        print(line, file=sys.stderr)
+        raise
     keywords[keyword] = 1
     try:
         scores[url][keyword] = int(score)
