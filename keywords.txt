@@ -5,4 +5,5 @@ OAuth
 consent
 surveillance
 journalism
-democracy
+identity
+sso

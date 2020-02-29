@@ -79,7 +79,7 @@ class TableRow(object):
         return self.totalscore < other.totalscore
 
     def as_html(self):
-        result = "<tr><td><a href='%s'>%s</a></td><td>%s</td><td>%d</td>" % (self.url, self.name, self.description, self.totalscore)
+        result = "<tr><td><b><a href='%s'>%s</a>:</b>&nbsp;%s</td><td>%d</td>" % (self.url, self.name, self.description, self.totalscore)
         for j in keywords: 
             try:
                 result += "<td>%d</td>" % scores[self.url][j]
@@ -121,7 +121,7 @@ rows.sort(reverse=True)
 print('<html><head><title>Results</title><style type="text/css">')
 print(tablestyle)
 
-print('</style></head><body><table border=1><tr><th colspan="2">Project</th><th>Total score</th>')
+print('</style></head><body><table><tr><th>Project</th><th>Total score</th>')
 for w in keywords:
     print("<th>%s</th>" % w)
 print("</tr>")
