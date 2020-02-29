@@ -1,11 +1,11 @@
 KEYWORDS = $(shell cat keywords.txt)
 
-# GITDATA = $(KEYWORDS:%=data/github/%)
-# LIBRARIESDATA = $(KEYWORDS:%=data/libraries/%)
-
 SCORES = $(KEYWORDS:%=scores/%)
 
-# data : $(GITDATA) $(LIBRARIESDATA)
+all : results.html
+
+results.html : scores
+	cat $(SCORES) | ./make-table.py > $@
 
 scores : $(SCORES)
 
@@ -21,9 +21,11 @@ scores/% : Makefile ./parse.py data/github/% data/libraries/%
 
 clean : 
 	rm -rf scores
+	rm -f results.html
 
 pristine : clean
-	rm -rf data scores
+	rm -rf data
 
 .PHONY : all clean pristine
 
+.PRECIOUS : data/github/% data/libraries/%
