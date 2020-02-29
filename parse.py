@@ -55,8 +55,7 @@ if __name__ == '__main__':
     destination = sys.argv[1]
     keyword = os.path.basename(destination)
     for file in ("data/github/%s" % keyword, "data/libraries/%s" % keyword):
-        print(file)
         info = SearchResult(snarf_json(file))
         for r in info:
-            print("%s %s %d %s" % (keyword, r.url, r.size, r.description))
+            print("%s %s %s %d %s" % (keyword, r.url, r.name, r.size, r.description))
 
