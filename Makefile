@@ -2,10 +2,13 @@ KEYWORDS = $(shell cat keywords.txt)
 
 SCORES = $(KEYWORDS:%=scores/%)
 
-all : results.html
+all : results.html results.csv
 
 results.html : make-table.py scores
-	cat $(SCORES) | ./make-table.py > $@
+	cat $(SCORES) | ./make-table.py html > $@
+
+results.csv : make-table.py scores
+	cat $(SCORES) | ./make-table.py csv > $@
 
 scores : $(SCORES)
 
@@ -21,7 +24,7 @@ scores/% : Makefile ./parse.py data/github/% data/libraries/%
 
 clean : 
 	rm -rf scores
-	rm -f results.html
+	rm -f results.html results.csv
 
 pristine : clean
 	rm -rf data

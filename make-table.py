@@ -88,12 +88,24 @@ class TableRow(object):
         result += "</tr>"
         return result
 
+    def as_csv(self):
+        result='"%s","%s","%s","%s"' % (self.name, self.url, self.description, self.totalscore)
+        for j in keywords:
+            try:
+                result += ',"%s"' % scores[self.url][j]
+            except KeyError:
+                result += ',""'
+        result += "\n"
+        return result
 
 scores = {}
 totalscore = {}
 names = {}
 descriptions = {}
 keywords = {}
+
+format = sys.argv[1]
+
 for line in sys.stdin:
     try:
         (keyword, url, name, score, description) = line.split(' ', 4)
@@ -118,15 +130,23 @@ for k in names.keys():
 
 rows.sort(reverse=True)
 
-print('<html><head><title>Results</title><style type="text/css">')
-print(tablestyle)
+if (format == 'html'):
+    print('<html><head><title>Results</title><style type="text/css">')
+    print(tablestyle)
 
-print('</style></head><body><table><tr><th>Project</th><th>Total score</th>')
-for w in keywords:
-    print("<th>%s</th>" % w)
-print("</tr>")
+    print('</style></head><body><table><tr><th>Project</th><th>Total score</th>')
+    for w in keywords:
+        print("<th>%s</th>" % w)
+    print("</tr>")
 
-for r in rows:
-    print(r.as_html())
-print("</table><p>Built %s</p></html>" % datetime.now())
-    
+    for r in rows:
+        print(r.as_html())
+    print('</table><p>Built %s (<a href="results.csv" target="_blank">(CSV version for spreadsheets)</a></p></html>' % datetime.now())
+else: # CSV version
+    sys.stdout.write('"Name","URL","Description","Total score"')
+    for w in keywords:
+        sys.stdout.write(',"%s"' % w)
+    sys.stdout.write("\n")
+    for r in rows:
+        sys.stdout.write(r.as_csv())
+
