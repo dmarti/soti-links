@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from datetime import datetime
+import re
 import sys
 
 tablestyle = '''
@@ -89,7 +90,11 @@ class TableRow(object):
         return result
 
     def as_csv(self):
-        result='"%s","%s","%s","%s"' % (self.name, self.url, self.description, self.totalscore)
+        # Filter out special characters from description
+        allowed = re.compile('[^a-zA-Z.(),/]')
+        fd = allowed.sub(' ', self.description)
+        fd = ' '.join(fd.split())
+        result='"%s","%s","%s","%s"' % (self.name, self.url, fd, self.totalscore)
         for j in keywords:
             try:
                 result += ',"%s"' % scores[self.url][j]
