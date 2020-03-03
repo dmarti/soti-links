@@ -1,5 +1,8 @@
 #!/usr/bin/bash
 
+set -e
+set -x
+
 outdir=$(dirname $1)
 mkdir -p $outdir
 
