@@ -115,8 +115,7 @@ for line in sys.stdin:
     try:
         (keyword, url, name, score, description) = line.split(' ', 4)
     except ValueError:
-        print(line, file=sys.stderr)
-        raise
+        print("Unexpected line: %s" % line, file=sys.stderr)
     keywords[keyword] = 1
     try:
         scores[url][keyword] = int(score)
@@ -124,6 +123,8 @@ for line in sys.stdin:
     except KeyError:
         scores[url] = {keyword: int(score)}
         totalscore[url] = int(score)
+    except ValueError:
+        pass
     names[url] = name
     descriptions[url] = description
 
@@ -145,13 +146,17 @@ if (format == 'html'):
     print("</tr>")
 
     for r in rows:
+        if not 'http' in r.url:
+            continue
         print(r.as_html())
-    print('</table><p>Built %s (<a href="results.csv" target="_blank">(CSV version for spreadsheets)</a></p></html>' % datetime.now())
+    print('</table><p>Built %s <a href="results.csv" target="_blank">(CSV version for spreadsheets)</a></p></html>' % datetime.now())
 else: # CSV version
     sys.stdout.write('"Name","URL","Description","Total score"')
     for w in keywords:
         sys.stdout.write(',"%s"' % w)
     sys.stdout.write("\n")
     for r in rows:
+        if not 'http' in r.url:
+            continue
         sys.stdout.write(r.as_csv())
 

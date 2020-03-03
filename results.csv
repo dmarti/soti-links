@@ -1,899 +1,232 @@
 "Name","URL","Description","Total score","OAuth","OpenID","ccpa","consent","gdpr","identity","journalism","sso","surveillance"
-"oauth-sign","https://github.com/mikeal/oauth-sign","OAuth 1 signing. Formerly a vendor lib in mikeal/request, now a standalone module.
-","311337","311337","","","","","","","",""
-"postcss-reduce-idents","https://github.com/cssnano/cssnano","Reduce custom identifiers with PostCSS.
-","220275","","","","","","109932","","",""
-"identity-obj-proxy","https://github.com/keyanzhang/identity-obj-proxy","an identity object using ES6 proxies
-","87114","","","","","","87114","","",""
-"Ghost","https://github.com/TryGhost/Ghost","👻 The #1 headless Node.js CMS for professional publishing
-","32786","","","","","","","32786","",""
-"hydra","https://github.com/ory/hydra","OAuth2 Server and OpenID Certified™ OpenID Connect Provider written in Go - cloud native, security-first, open source API security for your infrastructure. SDKs for any language.
-","32276","8069","8069","","","","8069","","8069",""
-"oauth","https://github.com/oauth-xx/oauth-ruby","OAuth Core Ruby implementation
-","20820","20820","","","","","","","",""
-"passport-google-oauth","https://github.com/jaredhanson/passport-google-oauth","Google (OAuth) authentication strategies for Passport.
-","14640","14640","","","","","","","",""
-"oauth-evanp","https://github.com/ciaranj/node-oauth","Library for interacting with OAuth 1.0, 1.0A, 2 and Echo. Provides simplified client access and allows for construction of more complex apis and OAuth providers.
-","11597","38","","","","","","","",""
-"awesome-falsehood","https://github.com/kdeldycke/awesome-falsehood","😱 Falsehoods Programmers Believe in
-","11417","","","","","","11417","","",""
-"goaccess","https://github.com/allinurl/goaccess","GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser.
-","10802","","","","","10802","","","",""
-"omniauth-oauth","https://github.com/intridea/omniauth-oauth","A generic OAuth (1.0/1.0a) strategy for OmniAuth.
-","10062","10062","","","","","","","",""
-"doorkeeper","https://github.com/doorkeeper-gem/doorkeeper","Doorkeeper is an OAuth 2 provider for Ruby on Rails / Grape.
-","9050","4525","","","","","4525","","",""
-"@gulp-sourcemaps/identity-map","https://github.com/gulp-sourcemaps/identity-map","Gulp plugin for generating an identity sourcemap for a file.
-","8083","","","","","","8083","","",""
-"cas","https://github.com/apereo/cas","Apereo CAS - Enterprise Single Sign On for all earthlings and beyond.
-","7260","","1","","0","","","","7247",""
-"OpenRefine","https://github.com/OpenRefine/OpenRefine","OpenRefine is a free, open source power tool for working with messy data and improving it
-","6893","","","","","","","6893","",""
-"lynis","https://github.com/CISOfy/lynis","Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation optional.
-","6654","","","","","6654","","","",""
-"IdentityServer4","https://github.com/IdentityServer/IdentityServer4","OpenID Connect and OAuth 2.0 Framework for ASP.NET Core
-","5953","","","","","","5953","","",""
-"frontend","https://github.com/guardian/frontend","The Guardian Dot Com.
-","5415","","","","","","","5415","",""
-"oauth2-server","https://github.com/thephpleague/oauth2-server","A spec compliant, secure by default PHP OAuth 2.0 Server
-","5326","5326","","","","","","","",""
-"scribejava","https://github.com/scribejava/scribejava","Simple OAuth library for Java
-","4985","4985","","","","","","","",""
-"cpprestsdk","https://github.com/microsoft/cpprestsdk","The C++ REST SDK is a Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design. This project aims to help C++ developers connect to and interact with services.
-","4925","4925","","","","","","","",""
-"sso","https://github.com/buzzfeed/sso","sso, aka S.S.Octopus, aka octoboi, is a single sign-on solution for securing internal services
-","4708","2354","","","","","","","2354",""
-"cookieconsent","https://github.com/osano/cookieconsent","A free solution to the EU, GDPR, and California Cookie Laws
-","4690","","","2345","","2345","","","",""
-"passport-oauth","https://github.com/jaredhanson/passport-oauth","OAuth 1.0 and 2.0 authentication strategies for Passport.
-","4329","4329","","","","","","","",""
-"oauthlib","https://github.com/oauthlib/oauthlib","A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
-","3920","1960","","","","","1960","","",""
-"ruby-openid","https://github.com/openid/ruby-openid","A library for consuming and serving OpenID identities.
-","3806","","3806","","","","","","",""
-"rack-openid","https://github.com/grosser/rack-openid","Provides a more HTTPish API around the ruby-openid library
-","3137","","3137","","","","","","",""
-"hope-boot","https://github.com/hope-for/hope-boot","🌱 Hope-Boot 一款现代化的脚手架项目
-","3135","","","","","","","","3135",""
-"python3-openid","https://github.com/necaris/python3-openid","OpenID support for modern servers and consumers.
-","2969","","2969","","","","","","",""
-"securedrop","https://github.com/freedomofpress/securedrop","GitHub repository for the SecureDrop whistleblower platform. Do not submit tips here!
-","2833","","","","","","","2833","",""
-"nodejs-api-starter","https://github.com/kriasoft/nodejs-api-starter","💥 A GraphQL API boilerplate (template) made with Node.js, TypeScript, and PostgreSQL
-","2693","2693","","","","","","","",""
-"grant","https://github.com/simov/grant","OAuth Middleware for Express, Koa and Hapi
-","2623","2623","","","","","","","",""
-"OAuthSwift","https://github.com/OAuthSwift/OAuthSwift","Swift based OAuth library for iOS
-","2569","2569","","","","","","","",""
-"login-with","https://github.com/lipp/login-with","Stateless login-with microservice for OAuth
-","2248","2248","","","","","","","",""
-"prowler","https://github.com/toniblyx/prowler","AWS Security Best Practices Assessment, Auditing, Hardening and Forensics Readiness Tool. It follows guidelines of the CIS Amazon Web Services Foundations Benchmark and DOZENS of additional checks including GDPR and HIPAA (+100). Official CIS for AWS guide: https://d0.awsstatic.com/whitepapers/compliance/AWS_CIS_Foundations_Benchmark.pdf
-","2197","","","","","2197","","","",""
-"tailscale","https://github.com/tailscale/tailscale","The easiest, most secure way to use WireGuard.
-","2182","1091","","","","","","","1091",""
-"cli","https://github.com/smallstep/cli","🧰 A zero trust swiss army knife for working with X509, OAuth, JWT, OATH OTP, etc.
-","2054","1027","","","","","","","1027",""
-"praw","https://github.com/praw-dev/praw","PRAW, an acronym for "Python Reddit API Wrapper", is a python package that allows for simple access to Reddit's API.
-","2045","2045","","","","","","","",""
-"org.pac4j:pac4j-oauth","https://github.com/pac4j/pac4j","Profile & Authentication Client for Java
-","1992","249","","","","","","","",""
-"blockstack-core","https://github.com/blockstack/blockstack-core","The reference implementation of Blockstack
-","1981","","","","","","1981","","",""
-"privacytools.io","https://github.com/privacytoolsIO/privacytools.io","🛡🛠 You are being watched. Protect your privacy against global mass surveillance.
-","1965","","","","","","","","","1965"
-"HWIOAuthBundle","https://github.com/hwi/HWIOAuthBundle","OAuth client integration for Symfony. Supports both OAuth1.0a and OAuth2.
-","1940","1940","","","","","","","",""
-"python-openid-pebble","https://github.com/openid/python-openid","OpenID support for servers and consumers.
-","1934","","0","","","","","","",""
-"spring-boot-cloud","https://github.com/zhangxd1989/spring-boot-cloud","基于 Spring Boot、Spring Cloud、Spring Oauth2 和 Spring Cloud Netflix 等框架构建的微服务项目
-","1907","1907","","","","","","","",""
-"Monkey","https://github.com/coderyi/Monkey","Monkey is a unofficial GitHub client for iOS,to show the rank of coders and repositories.
-","1730","1730","","","","","","","",""
-"awesome-interactive-journalism","https://github.com/wbkd/awesome-interactive-journalism","A list of awesome interactive journalism projects.
-","1685","","","","","","","1685","",""
-"netlify-identity-widget","https://github.com/netlify/netlify-identity-widget","Netlify Identity widget for easy integration
-","1663","","","","","","1663","","",""
-"github.com/coreos/go-systemd/journal","https://github.com/coreos/go-systemd/journal","Go bindings to systemd socket activation, journal, D-Bus, and unit files
-","1659","","","","","","","1659","",""
-"omniauth-openid","https://github.com/intridea/omniauth-openid","OpenID strategy for OmniAuth.
-","1648","","1648","","","","","","",""
-"authlib","https://github.com/lepture/authlib","The ultimate Python library in building OAuth, OpenID Connect clients and servers. JWS,JWE,JWK,JWA,JWT included.
-","1600","1600","","","","","","","",""
-"com.google.oauth-client:google-oauth-client-jetty","scm:git:https://github.com/google/google-oauth-java-client.git/google-oauth-client-jetty","Google OAuth Client Library for Java
-","1588","1588","","","","","","","",""
-"amazon-cognito-identity-js","https://github.com/aws-amplify/amplify-js","Amazon Cognito Identity Provider JavaScript SDK
-","1481","","","","","","1481","","",""
-"talk","https://github.com/coralproject/talk","A better commenting experience from Vox Media
-","1423","","","","","","","1423","",""
-"oauth2_proxy","https://github.com/pusher/oauth2_proxy","A reverse proxy that provides authentication with Google, Github or other providers.
-","1417","","","","","","","","1417",""
-"flask-oauthlib","https://github.com/lepture/flask-oauthlib","YOU SHOULD USE https://github.com/lepture/authlib
-","1386","1386","","","","","","","",""
-"smart","https://github.com/a466350665/smart","Java单点登录权限系统，权限按钮级、修改实时生效、支持分布式、支持SpringBoot客户端
-","1366","","","","","","","","1366",""
-"fosite","https://github.com/ory/fosite","Extensible security first OAuth 2.0 and OpenID Connect SDK for Go.
-","1356","1356","","","","","","","",""
-"JPProject.IdentityServer4.AdminUI","https://github.com/brunohbrito/JPProject.IdentityServer4.AdminUI",":wrench: ASP.NET Core 3 & Angular 8 Administration Panel for :revolving_hearts:IdentityServer4 and ASP.NET Core Identity
-","1344","","448","","","","448","","448",""
-"Flask-OpenID","https://github.com/mitsuhiko/flask-openid","OpenID support for Flask
-","1333","","1333","","","","","","",""
-"vue-authenticate","https://github.com/dgrubelic/vue-authenticate","Simple Vue.js authentication library
-","1231","1231","","","","","","","",""
-"AspNet5IdentityServerAngularImplicitFlow","https://github.com/damienbod/AspNet5IdentityServerAngularImplicitFlow","OpenID Connect Code / Implicit Flow with Angular and ASP.NET Core 3.1 IdentityServer4
-","1206","","603","","","","603","","",""
-"spring-security-oauth","https://github.com/Baeldung/spring-security-oauth","Just Announced - "Learn Spring Security OAuth":
-","1203","1203","","","","","","","",""
-"nextjs-starter","https://github.com/iaincollins/nextjs-starter","A starter project for Next.js with authentication
-","1196","1196","","","","","","","",""
-"classroom","https://github.com/education/classroom","GitHub Classroom automates repository creation and access control, making it easy for teachers to distribute starter code and collect assignments on GitHub.
-","1192","1192","","","","","","","",""
-"itext7","https://github.com/itext/itext7","iText 7 for Java represents the next level of SDKs for developers that want to take advantage of the benefits PDF can bring. Equipped with a better document engine, high and low-level programming capabilities and the ability to create, edit and enhance PDF documents, iText 7 can be a boon to nearly every workflow.
-","1170","","","585","","585","","","",""
-"hack-the-media","https://github.com/nemild/hack-the-media","This repo collects examples of intentional and unintentional hacks of media sources
-","1145","","","","","","","1145","",""
-"blockstack-browser","https://github.com/blockstack/blockstack-browser","The Blockstack Browser
-","1104","","","","","","1104","","",""
-"xxl-sso","https://github.com/xuxueli/xxl-sso","A distributed single-sign-on framework.（分布式单点登录框架XXL-SSO）
-","1100","","","","","","","","1100",""
-"ueberauth","https://github.com/ueberauth/ueberauth","An Elixir Authentication System for Plug-based Web Applications
-","1092","1092","","","","","","","",""
-"pomerium","https://github.com/pomerium/pomerium","Pomerium is an identity-aware access proxy.
-","1034","","","","","","1034","","",""
-"node-oidc-provider","https://github.com/panva/node-oidc-provider","OpenID Certified™ OAuth 2.0 Authorization Server implementation for Node.js
-","985","","985","","","","","","",""
-"auth0-socketio-jwt","https://github.com/auth0-community/auth0-socketio-jwt","Authenticate socket.io incoming connections with JWTs
-","984","","","","","","984","","",""
-"aleph","https://github.com/alephdata/aleph","Search and browse documents and data; find the people and companies you look for.
-","977","","","","","","","977","",""
-"oa-openid","https://github.com/intridea/omniauth","OpenID strategies for OmniAuth.
-","974","","974","","","","","","",""
-"passport-openid","https://github.com/jaredhanson/passport-openid","OpenID authentication strategy for Passport.
-","963","","963","","","","","","",""
-"accounts","https://github.com/accounts-js/accounts","Fullstack authentication and accounts-management for Javascript.
-","963","963","","","","","","","",""
-"django-oauth-toolkit","https://github.com/jazzband/django-oauth-toolkit","OAuth2 Provider for Django
-","961","961","","","","","","","",""
-"scalaj-http","https://github.com/scalaj/scalaj-http","Simple scala wrapper for HttpURLConnection. OAuth included.
-","927","927","","","","","","","",""
-"com.google.oauth-client:google-oauth-client","https://github.com/google/google-oauth-java-client.git","Google OAuth Client Library for Java. Functionality that works on all supported Java platforms, including Java 5 (or higher) desktop (SE) and web (EE), Android, and Google App Engine.
-","927","927","","","","","","","",""
-"openid-client-kingfisher","https://github.com/panva/node-openid-client","OpenID Connect Relying Party (RP, Client) implementation for Node.js servers, supports passportjs. Additional porting for NHS Kingfisher.
-","919","","0","","","","","","",""
-"presidio","https://github.com/microsoft/presidio","Context aware, pluggable and customizable data protection and anonymization service for text and images
-","910","","","","","910","","","",""
-"socialite","https://github.com/overtrue/socialite",":octocat: Socialite is an OAuth2 Authentication tool. It is inspired by laravel/socialite, you can easily use it without Laravel.
-","903","903","","","","","","","",""
-"jbone","https://github.com/417511458/jbone","jbone基于Spring Cloud框架开发，旨在为中小企业提供稳定的微服务解决方案，为开发人员提供基础开发骨架，jbone包含微服务中所有常用组件，例如注册中心、服务管理、服务监控、JVM监控、内存分析、调用链跟踪、API网关等等。业务功能包括系统权限的统一管理、单点登录、CMS、电商平台、工作流平台、支付平台等等。
-","888","","","","","","","","888",""
-"google-auth-library-nodejs","https://github.com/googleapis/google-auth-library-nodejs","🔑 Google Auth Library for Node.js
-","862","862","","","","","","","",""
-"itext7-dotnet","https://github.com/itext/itext7-dotnet","iText 7 for .NET is the .NET version of the iText 7 library, formerly known as iTextSharp, which it replaces. iText 7 represents the next level of SDKs for developers that want to take advantage of the benefits PDF can bring. Equipped with a better document engine, high and low-level programming capabilities and the ability to create, edit and enhance PDF documents, iText 7 can be a boon to nearly every workflow.
-","832","","","416","","416","","","",""
-"authelia","https://github.com/authelia/authelia","The Cloud ready multi-factor single sign-on portal for your Apps
-","812","","","","","","","","812",""
-"play-silhouette","https://github.com/mohiva/play-silhouette","Silhouette is an authentication library for Play Framework applications that supports several authentication methods, including OAuth1, OAuth2, OpenID, CAS, 2FA, TOTP, Credentials, Basic Authentication or custom authentication schemes.
-","804","","804","","","","","","",""
-"jso","https://github.com/andreassolberg/jso","Easy to use OAuth 2.0 javascript library for use in your javascript application.
-","791","","","","","","","","791",""
-"spring-boot-security-saml-sample","https://github.com/vdenotaris/spring-boot-security-saml-sample","SBS3 — A sample SAML 2.0 Service Provider built on Spring Boot.
-","790","","","","","","395","","395",""
-"sso","https://github.com/kawhii/sso","cas单点登录系统，其中包括cas认证服务，配置中心，监控平台，服务管理的高可用项目
-","682","","","","","","","","682",""
-"contextualise","https://github.com/brettkromkamp/contextualise","Contextualise is a simple and flexible tool particularly suited for organising information-heavy projects and activities consisting of unstructured and widely diverse data and information resources
-","666","","","","","","","666","",""
-"keycloak-gatekeeper","https://github.com/keycloak/keycloak-gatekeeper","A OpenID / Keycloak Proxy service
-","647","","647","","","","","","",""
-"java-cas-client","https://github.com/apereo/java-cas-client","Apereo Java CAS Client
-","637","","","","","","","","637",""
-"Digital-Privacy","https://github.com/No-Github/Digital-Privacy","一个关于数字隐私搜集、保护、清理集一体的方案,外加开源信息收集(OSINT)对抗 (长期更新)
-","635","","","","","","","","","635"
-"fw-cloud-framework","https://github.com/liuweijw/fw-cloud-framework","基于springcloud全家桶开发分布式框架（支持oauth2认证授权、SSO登录、统一下单、微信公众号服务、Shardingdbc分库分表、常见服务监控、链路监控、异步日志、redis缓存等功能），实现基于Vue全家桶等前后端分离项目工程
-","628","","","","","","","","628",""
-"org.springframework.security:spring-security-openid","https://github.com/spring-projects/spring-security","spring-security-openid
-","622","","622","","","","","","",""
-"jose-jwt","https://github.com/dvsekhvalnov/jose-jwt","Ultimate Javascript Object Signing and Encryption (JOSE) and JSON Web Token (JWT) Implementation for .NET and .NET Core
-","619","","619","","","","","","",""
-"product-is","https://github.com/wso2/product-is","Welcome to the WSO2 Identity Server source code! For info on working with the WSO2 Identity Server repository and contributing code, click the link below.
-","614","","","","","","307","","307",""
-"openid","https://github.com/havard/node-openid","OpenID 1.1/2.0 library for node.js
-","599","","599","","","","","","",""
-"WeIdentity","https://github.com/WeBankFinTech/WeIdentity","基于区块链的符合W3C DID和Verifiable Credential规范的分布式身份解决方案
-","594","","","","","","594","","",""
-"spiffe","https://github.com/spiffe/spiffe","The SPIFFE Project
-","587","","","","","","587","","",""
-"informer","https://github.com/paulpierre/informer","A Telegram Mass Surveillance Bot in Python
-","577","","","","","","","","","577"
-"gdpr-checklist","https://github.com/privacyradius/gdpr-checklist","The GDPR Checklist
-","571","","","","","571","","","",""
-"django-oidc-provider","https://github.com/juanifioren/django-oidc-provider","OpenID Connect and OAuth2 provider implementation for Djangonauts.
-","554","","277","","","","277","","",""
-"vouch-proxy","https://github.com/vouch/vouch-proxy","an SSO and OAuth / OIDC login solution for Nginx using the auth_request module
-","554","","","","","","","","554",""
-"microsoft-authentication-library-for-dotnet","https://github.com/AzureAD/microsoft-authentication-library-for-dotnet","Microsoft Authentication Library (MSAL) for .NET
-","550","","","","","","550","","",""
-"gdpr_rails","https://github.com/prey/gdpr_rails","Rails Engine for the GDPR compliance
-","548","","","","","548","","","",""
-"guzzlehttp/oauth-subscriber","https://github.com/guzzle/oauth-subscriber","Guzzle OAuth 1.0 subscriber
-","546","546","","","","","","","",""
-"IdentityModel","https://github.com/IdentityModel/IdentityModel",".NET standard helper library for claims-based identity, OAuth 2.0 and OpenID Connect.
-","529","","","","","","529","","",""
-"OpenDSR","https://github.com/opengdpr/OpenDSR","A common framework enabling companies to work together to protect consumers' privacy and data rights.
-","522","","","261","","261","","","",""
-"multitor","https://github.com/trimstray/multitor","Create multiple TOR instances with a load-balancing.
-","512","","","","","","512","","",""
-"yett","https://github.com/snipsco/yett","🔐A small webpage library to control the execution of (third party) scripts
-","508","","","","","508","","","",""
-"omniauth-identity","https://github.com/intridea/omniauth-identity","Internal authentication handlers for OmniAuth.
-","489","","","","","","489","","",""
-"NSABlocklist","https://github.com/CHEF-KOCH/NSABlocklist","HOSTS file and research project to block all known NSA / GCHQ / C.I.A. / F.B.I. spying server
-","474","","","","","","","","","474"
-"klaro","https://github.com/KIProtect/klaro","Klaro! A simple and powerful tool to manage user consent on websites.
-","472","","","","236","236","","","",""
-"OwinOAuthProviders","https://github.com/TerribleDev/OwinOAuthProviders","OAuth providers for Owin
-","471","","471","","","","","","",""
-"OSINT_Collection","https://github.com/Ph055a/OSINT_Collection","Maintained collection of OSINT related resources. (All Free & Actionable)
-","454","","","","","","","454","",""
-"letterpad","https://github.com/letterpad/letterpad","Letterpad is an open-source and a high performant publishing engine for blogs built with react & graphql and runs ridiculously fast 🚀
-","447","","","","","","","447","",""
-"com.google.oauth-client:google-oauth-client-java6","scm:git:https://github.com/google/google-oauth-java-client.git/google-oauth-client-java6","Google OAuth Client Library for Java
-","436","436","","","","","","","",""
-"taoshop","https://github.com/u014427391/taoshop","开源电子商务项目，SpringBoot+Dubbo技术栈实现微服务，实现一款分布式集群的电商系统. 项目releases链接：https://github.com/u014427391/taoshop/releases (开发中...)
-","429","","","","","","","","429",""
-"comply","https://github.com/strongdm/comply","Compliance automation framework, focused on SOC2
-","400","","","","","400","","","",""
-"auth","https://github.com/SocialConnect/auth",":atom: Social (OAuth1\OAuth2\OpenID\OpenIDConnect) sign with PHP :shipit:
-","395","","395","","","","","","",""
-"nrol-39-logo","https://github.com/palewire/nrol-39-logo","A vector PDF of the official mission logo of NROL-39 released via FOIA
-","391","","","","","","","","","391"
-"freeipa","https://github.com/freeipa/freeipa","Mirror of FreeIPA, an integrated security information management solution
-","384","","","","","","384","","",""
-"angular-auth-oidc-client","https://github.com/damienbod/angular-auth-oidc-client","npm package for OpenID Connect Code Flow with PKCE, Implicit Flow
-","378","","378","","","","","","",""
-"ngx-starter-kit","https://github.com/xmlking/ngx-starter-kit",":a: Angular :rocket: NestJS :monkey: Starter Kit
-","376","","376","","","","","","",""
-"app","https://github.com/simple-login/app","The SimpleLogin back-end
-","376","","","","","","","","376",""
-"ScatterWebExtension","https://github.com/GetScatter/ScatterWebExtension","Extension that allows you to sign transactions with your private keys securely from within the browser without ever exposing them.
-","362","","","","","","362","","",""
-"oil","https://github.com/as-ideas/oil","Open Source GDPR Consent Management Provider (CMP), Opt-In Layer (oil.js), supports the IAB Framework
-","360","","","","180","180","","","",""
-"laravel-personal-data-export","https://github.com/spatie/laravel-personal-data-export","Create zip files containing personal data
-","324","","","","","324","","","",""
-"aws-google-auth","https://github.com/cevoaustralia/aws-google-auth","Provides AWS STS credentials based on Google Apps SAML SSO auth (what a jumble!)
-","320","","","","","","","","320",""
-"openid_connect","https://github.com/nov/openid_connect","OpenID Connect Server & Client Library
-","306","","306","","","","","","",""
-"android-hidden-camera","https://github.com/kevalpatel2106/android-hidden-camera","This library is to take picture using camera without camera preview.
-","304","","","","","","","","","304"
-"OSINT_Team_Links","https://github.com/IVMachiavelli/OSINT_Team_Links","Links for the OSINT Team
-","300","","","","","","","300","",""
-"uport-connect","https://github.com/uport-project/uport-connect","Main uPort library for front end developers
-","292","","","","","","292","","",""
-"samlify","https://github.com/tngan/samlify","🔐 Node.js API for Single Sign On (SAML 2.0)
-","292","","","","","","","","292",""
-"jumbojett/openid-connect-php","https://github.com/jumbojett/OpenID-Connect-PHP","Bare-bones OpenID Connect client
-","289","","24","","","","","","",""
-"VoteRobot","https://github.com/debugtalk/VoteRobot","微信朋友圈投票活动的“刷票”案例分析。
-","287","","287","","","","","","",""
-"awesome-zero-trust","https://github.com/pomerium/awesome-zero-trust","A curated collection of awesome resources for the zero-trust security model.
-","285","","","","","","285","","",""
-"Scout","https://github.com/tevora-threat/Scout","Surveillance Detection Scout: Your Lookout on Autopilot
-","271","","","","","","","","","271"
-"oauth-1.0a","https://github.com/ddo/oauth-1.0a","OAuth 1.0a Request Authorization for Node and Browser.
-","270","270","","","","","","","",""
-"oauth-signature","https://github.com/bettiolo/oauth-signature-js","OAuth 1.0a signature generator (RFC 5849)
-","268","268","","","","","","","",""
-"aws-security-workshops","https://github.com/aws-samples/aws-security-workshops","A collection of the latest AWS Security workshops
-","267","","","","","","267","","",""
-"oauth2-server","https://github.com/jobmission/oauth2-server","spring boot (springboot 2+) oauth2 server sso 单点登录 认证中心 JWT,独立部署,用户管理 客户端管理
-","266","","","","","","","","266",""
-"Ghost-CLI","https://github.com/TryGhost/Ghost-CLI","CLI Tool for installing & updating Ghost
-","264","","","","","","","264","",""
-"openstack4j","https://github.com/ContainX/openstack4j","A Fluent OpenStack SDK / Client Library for Java
-","262","","","","","","262","","",""
-"passport-steam","https://github.com/liamcurry/passport-steam","Steam (OpenID) authentication strategy for Passport and Node.js.
-","256","","256","","","","","","",""
-"zendframework/zend-mvc-plugin-identity","https://github.com/zendframework/zend-mvc-plugin-identity","Plugin for retrieving the current authenticated identity within zend-mvc controllers
-","254","","","","","","254","","",""
-"wechat-oauth","https://github.com/node-webot/wechat-oauth","微信公共平台OAuth
-","253","253","","","","","","","",""
-"open-semantic-search","https://github.com/opensemanticsearch/open-semantic-search","Open Semantic Search Engine and Open Source Text Mining & Text Analytics platform (Integrates ETL for document processing, OCR for images & PDF, named entity recognition for persons, organizations & locations, metadata management by thesaurus & ontologies, search user interface & search apps for fulltext search, faceted search & knowledge graph)
-","253","","","","","","","253","",""
-"equatable","https://github.com/felangel/equatable","Simplify Equality Comparisons | A Dart abstract class that helps to implement equality without needing to explicitly override == and hashCode.
-","253","","","","","","253","","",""
-"Finbuckle.MultiTenant","https://github.com/Finbuckle/Finbuckle.MultiTenant","Finbuckle.MultiTenant is a multitenancy library for ASP.NET Core. It provides functionality for tenant resolution, per-tenant app configuration, and per-tenant data isolation.
-","240","","","","","","240","","",""
-"pigeon","https://github.com/geraldoramos/pigeon","Pigeon is a simple 3D printed cloud home surveillance camera project that uses the new Raspberry Pi Zero W
-","239","","","","","","","","","239"
-"AspNetCoreApiStarter","https://github.com/mmacneil/AspNetCoreApiStarter","An ASP.NET Core (v2.1) Web API project to quickly bootstrap new projects. Includes Identity, JWT authentication w/ refresh tokens.
-","236","","","","","","236","","",""
-"django-cas-ng","https://github.com/django-cas-ng/django-cas-ng","Django CAS 1.0/2.0/3.0 client authentication library, support Django 2.0, 2.1, 2.2, 3.0 and Python 3.5+
-","235","","","","","","","","235",""
-"oxAuth","https://github.com/GluuFederation/oxAuth","OAuth 2.0 server and client; OpenID Connect Provider (OP) & UMA Authorization Server (AS)
-","226","","","","","","","","226",""
-"github.com/syndtr/goleveldb/leveldb/journal","https://github.com/syndtr/goleveldb/leveldb/journal","LevelDB key/value database in Go.
-","224","","","","","","","224","",""
-"JacobAppelbaumLeavesTor","https://github.com/Enegnei/JacobAppelbaumLeavesTor",":mag: An investigation into Jacob Appelbaum leaving the Tor Project
-","219","","","","73","","","73","","73"
-"stormpath-sdk-java","https://github.com/stormpath/stormpath-sdk-java","Official Java SDK for the Stormpath User Management REST API
-","219","","","","","","219","","",""
-"gdpr-documents","https://github.com/good-lly/gdpr-documents","🇪🇺 Your Right to be Informed and Erased. The General Data Protection Regulation (EU) 2016/679 ("GDPR") documents for personal use.
-","212","","","","","212","","","",""
-"Cookies-EU-banner","https://github.com/Alex-D/Cookies-EU-banner","1kb vanilla JS script which manage cookies consent banner display like asked by GDPR
-","211","","","","","211","","","",""
-"snowden-archive","https://github.com/iamcryptoki/snowden-archive","💥 A collection of all documents leaked by former NSA contractor and whistleblower Edward Snowden.
-","210","","","","","","","","","210"
-"tkey","https://github.com/cdk8s/tkey","以材料最全、示例最多为目标的单点登录系统（SSO）
-","206","","","","","","","","206",""
-"WhereAreTheEyes","https://github.com/DaylightingSociety/WhereAreTheEyes","Surveillance Detection and Mapping App
-","203","","","","","","","","","203"
-"cjworkbench","https://github.com/CJWorkbench/cjworkbench","The data journalism platform with built in training
-","202","","","","","","","202","",""
-"CAS_SSO_Record","https://github.com/X-rapido/CAS_SSO_Record","CAS实现SSO单点登录项目示例（基本认证流程，代理认证流程，Iframe实现SSO，Restful API实现SSO，JWT认证流程等等）
-","199","","","","","","","","199",""
-"ipscrub","https://github.com/masonicboom/ipscrub","IP address anonymizer module for nginx
-","196","","","","","196","","","",""
-"NewId","https://github.com/phatboyg/NewId","A sequential id generator that works across nodes with no collisions
-","196","","","","","","196","","",""
-"ClearGDPR","https://github.com/ClearGDPR/ClearGDPR","GDPR Compliance Solution
-","193","","","","","193","","","",""
-"rpisurv","https://github.com/SvenVD/rpisurv","Raspberry Pi surveillance
-","189","","","","","","","","","189"
-"GDPRDialog","https://github.com/MFlisar/GDPRDialog","GDPR fragment dialog implementation
-","178","","","","","178","","","",""
-"Civil","https://github.com/joincivil/Civil","The Main Monorepo and entry-point of all things Civil
-","177","","","","","","","177","",""
-"ios-consent-sdk","https://github.com/smartlook/ios-consent-sdk","Configurable consent SDK for iOS
-","175","","","","175","","","","",""
-"soved/laravel-gdpr","https://github.com/sander3/laravel-gdpr","GDPR compliance with ease
-","164","","","","","2","","","",""
-"notebooks","https://github.com/datadesk/notebooks","All of our computational notebooks
-","164","","","","","","","164","",""
-"SSOwat","https://github.com/YunoHost/SSOwat","A simple SSO for nginx, written in Lua
-","163","","","","","","","","163",""
-"ccap","https://github.com/DoubleSpout/ccap","node.js generate captcha using c++ library CImg without install any other lib or software
-","157","","","157","","","","","",""
-"tarbell","https://github.com/tarbell-project/tarbell","A Flask-based static site authoring tool.
-","156","","","","","","","156","",""
-"nginx-http-shibboleth","https://github.com/nginx-shib/nginx-http-shibboleth","Shibboleth auth request module for nginx
-","151","","","","","","","","151",""
-"wazuh-kibana-app","https://github.com/wazuh/wazuh-kibana-app","Wazuh - Kibana plugin
-","143","","","","","143","","","",""
-"awesome-virgil","https://github.com/VirgilSecurity/awesome-virgil","Key Management and Crypto Building Block for your App or Device.
-","141","","","","","141","","","",""
-"spring-boot-keycloak-tutorial","https://github.com/sebastienblanc/spring-boot-keycloak-tutorial","Easily Secure your Spring Boot Apps with Keycloak
-","141","","141","","","","","","",""
-"jose2go","https://github.com/dvsekhvalnov/jose2go","Golang (GO) implementation of Javascript Object Signing and Encryption specification
-","134","","134","","","","","","",""
-"VanillaRAT","https://github.com/DannyTheSloth/VanillaRAT","VanillaRat is an advanced remote administration tool completely coded in C# for Windows.
-","128","","","","","","","","","128"
-"GDPR","https://github.com/trewknowledge/GDPR","This plugin is meant to assist a Controller, Data Processor, and Data Protection Officer (DPO) with efforts to meet the obligations and rights enacted under the GDPR.
-","127","","","","","127","","","",""
-"trackless","https://github.com/ascorbic/trackless","Add a GDPR-friendly Google Analytics opt-in/opt-out button to your site
-","126","","","","","126","","","",""
-"CloudKitGDPR","https://github.com/arturgrigor/CloudKitGDPR","Framework for allowing users to manage data stored in iCloud
-","126","","","","","126","","","",""
-"github-oauth","https://github.com/maxogden/github-oauth","simple functions for doing oauth login with github
-","126","126","","","","","","","",""
-"gdpr-tracker","https://github.com/privacyradius/gdpr-tracker","A crowdsourced directory tracking the GDPR compliance of cloud services and subprocessors
-","125","","","","","125","","","",""
-"RaspiSecurity","https://github.com/erogol/RaspiSecurity","Home Surveillance for Raspberry
-","124","","","","","","","","","124"
-"Umbrella_android","https://github.com/securityfirst/Umbrella_android","Digital and Physical Security Advice App
-","123","","","","","","","123","",""
-"census-data-downloader","https://github.com/datadesk/census-data-downloader","Download U.S. census data and reformat it for humans
-","122","","","","","","","122","",""
-"opensanctions","https://github.com/alephdata/opensanctions","An open database of persons of interest and politically exposed persons
-","121","","","","","","","121","",""
-"robovision","https://github.com/stoic1979/robovision","AI and machine leaning-based computer vision for a robot
-","117","","","","","","","","","117"
-"VXG.Media.SDK.Android","https://github.com/VideoExpertsGroup/VXG.Media.SDK.Android","Market leading Android SDK with encoding, streaming & playback functionality
-","116","","","","","","","","","116"
-"wechatAppDemo","https://github.com/magic007/wechatAppDemo","微信小程序demo,微信小程序开发教程,小程序快速入门，新版SDK DEMO请查看
-","109","","109","","","","","","",""
-"journalism-syllabi","https://github.com/dannguyen/journalism-syllabi","Computer-Assisted Reporting and Data Journalism Syllabuses, compiled by Dan Nguyen
-","107","","","","","","","107","",""
-"journalize","https://github.com/rdmurphy/journalize","A collection of functions useful for making prose more reader friendly. Inspired by Django's `django.contrib.humanize`.
-","107","","","","","","","23","",""
-"forget-db","https://github.com/OwenMelbz/forget-db","🇪🇺 A simple GDPR inspired tool to anonymise confidential database data.
-","105","","","","","105","","","",""
-"gdpr-rails","https://github.com/ziptofaf/gdpr-rails","An example project on building a GDPR compliant application
-","105","","","","","105","","","",""
-"OpenYOLO-Android","https://github.com/openid/OpenYOLO-Android","Android protocol for credential exchange and update - "You Only Login Once"
-","105","","105","","","","","","",""
-"eher/oauth","https://github.com/EHER/OAuth","OAuth 1 PHP Library
-","105","105","","","","","","","",""
-"thunder-distribution","https://github.com/BurdaMagazinOrg/thunder-distribution","A Drupal 8 based platform for professional publishers
-","104","","","","","","","104","",""
-"CookieScanner","https://github.com/CovenantSQL/CookieScanner","Cookie Scanner for GDPR compliance
-","103","","","","","103","","","",""
-"external-auth-server","https://github.com/travisghansen/external-auth-server","easy auth for reverse proxies
-","101","","101","","","","","","",""
-"py-synology","https://github.com/snjoetw/py-synology","Python API for Synology Surveillance Station
-","100","","","","","","","","","100"
-"openid/php-openid","https://github.com/openid/php-openid","OpenID library for PHP5
-","99","","99","","","","","","",""
-"express-oauth-server","https://github.com/seegno/express-oauth-server","OAuth provider for express
-","98","98","","","","","","","",""
-"cbs","https://github.com/IFRCGo/cbs","Red Cross: Community-Based Surveillance
-","98","","","","","","","","","98"
-"pai","https://github.com/ParadoxAlarmInterface/pai","Paradox Magellan, Spectra and EVO, with MQTT, Signal, Pushbullet, Pushover and others
-","96","","","","","","","","","96"
-"MyOIDC","https://github.com/monkeyk/MyOIDC","基于OIDC协议的参考实现,根据各类库提供实现参考
-","95","","95","","","","","","",""
-"PiCamNN","https://github.com/PiSimo/PiCamNN","Survelliance system with deep learning based people detection (YOLO)
-","93","","","","","","","","","93"
-"are-you-fake-news","https://github.com/N2ITN/are-you-fake-news","Bias detection in the news. Back and front end for areyoufakenews.com
-","92","","","","","","","92","",""
-"gds-sso","https://github.com/alphagov/gds-sso","Client for GDS' OAuth 2-based SSO
-","90","","","","","","","","90",""
-"clj-oauth","https://github.com/mattrepl/clj-oauth","OAuth support for Clojure
-","88","88","","","","","","","",""
-"arkid-core","https://github.com/longguikeji/arkid-core","一账通是一款开源的统一身份认证授权管理解决方案，支持多种标准协议(LDAP, OAuth2, SAML, OpenID)，细粒度权限控制，完整的WEB管理功能，钉钉、企业微信集成等
-","87","","87","","","","","","",""
-"lookup","https://github.com/wireservice/lookup","A repository of journalist's lookup tables.
-","86","","","","","","","86","",""
-"AspNet.Security.OpenId.Providers","https://github.com/aspnet-contrib/AspNet.Security.OpenId.Providers","OpenID 2.0 authentication middleware for ASP.NET Core
-","85","","85","","","","","","",""
-"masq","https://github.com/dennisreimann/masq","Mountable Rails engine that provides OpenID server/identity provider functionality
-","83","","83","","","","","","",""
-"ozonebase","https://github.com/ozonesecurity/ozonebase","Open Source, MIT licensed, SDK for Video Innovation & CCTV solutions http://ozone.network
-","79","","","","","","","","","79"
-"spatie/laravel-cookie-consent","https://github.com/spatie/laravel-cookie-consent","Make your Laravel app comply with the crazy EU cookie law
-","78","","","","78","","","","",""
-"snowball","https://github.com/thomaspark/snowball","A WordPress plugin for making immersive longform articles
-","78","","","","","","","78","",""
-"pastpages.org","https://github.com/pastpages/pastpages.org","The news homepage archive
-","78","","","","","","","78","",""
-"android-consent-sdk","https://github.com/smartlook/android-consent-sdk","Configurable consent SDK for Android
-","77","","","","77","","","","",""
-"rpicam","https://github.com/Lallassu/rpicam","Raspberry PI Surveillance Automation
-","77","","","","","","","","","77"
-"AspNetCoreHybridFlowWithApi","https://github.com/damienbod/AspNetCoreHybridFlowWithApi","ASP.NET Core MVC application using API, OpenID Connect Hybrid flow , second API, Code Flow with PKCE
-","76","","76","","","","","","",""
-"GDPRConsent","https://github.com/DavidEdwards/GDPRConsent","(missing project description)
-","76","","","","76","","","","",""
-"cca","https://github.com/MobileChromeApps/mobile-chrome-apps","Run Chrome Apps on mobile using Apache Cordova
-","74","","","74","","","","","",""
-"python-for-data-and-media-communication-gitbook","https://github.com/hupili/python-for-data-and-media-communication-gitbook","An open source book on Python tailed for communication students with zero background
-","72","","","","","","","72","",""
-"react-oidc-client-js","https://github.com/skoruba/react-oidc-client-js","OpenID Connect (OIDC) client with React and typescript
-","69","","69","","","","","","",""
-"djangorestframework-oauth","https://github.com/jpadilla/django-rest-framework-oauth","OAuth support for Django REST Framework
-","69","69","","","","","","","",""
-"abacus-oauth","https://github.com/cloudfoundry-incubator/cf-abacus","OAuth based authentication and authorization helpers
-","68","68","","","","","","","",""
-"org.jasig.cas:cas-server-support-oauth","https://github.com/Jasig/cas","cas-server-support-oauth
-","67","67","0","","","","","","",""
-"ihavecookies","https://github.com/ketanmistry/ihavecookies","jQuery plugin to display cookie consent message (EU regulation)
-","67","","","","67","","","","",""
-"react-cookie-consent","https://github.com/Mastermindzh/react-cookie-consent","A small, simple and customizable cookie consent bar for use in React applications.
-","64","","","","64","","","","",""
-"org.pac4j:pac4j-openid","scm:git:git@github.com:pac4j/pac4j.git/pac4j-openid","Security engine for Java (authentication, authorization, multi frameworks): OAuth, CAS, SAML, OpenID Connect, LDAP, JWT...
-","60","","60","","","","","","",""
-"@openid/appauth","https://github.com/openid/AppAuth-JS","A general purpose OAuth client.
-","54","","54","","","","","","",""
-"Cyber-Camera","https://github.com/amirfefer/Cyber-Camera","Turns any webcam into a smart security camera for home surveillance
-","54","","","","","","","","","54"
-"purescript-identity","https://github.com/purescript/purescript-identity.git","Identity value
-","52","","","","","","52","","",""
-"OAuth","https://github.com/danielcrenna/oauth","An implementation of OAuth 1.0a for .NET
-","50","50","","","","","","","",""
-"AspNetCoreMvcAngular","https://github.com/damienbod/AspNetCoreMvcAngular","ASP.NET Core MVC with angular in MVC View OpenID Connect Hybrid Flow
-","49","","49","","","","","","",""
-"org.keycloak:keycloak-servlet-oauth-client","https://github.com/keycloak/keycloak.git","Open Source Identity and Access Management For Modern Applications and Services
-","49","49","","","","","","","",""
-"SimpleIdentityServer","https://github.com/thabart/SimpleIdentityServer","OpenId + Uma + Oauth 2.0 providers + SCIM2.0 + RFID reader (DEPRECATED)
-","48","","48","","","","","","",""
-"data-protection-mapping-project","https://github.com/microsoft/data-protection-mapping-project","Open Source Data Protection/Privacy Regulatory Mapping Project
-","47","","","47","","","","","",""
-"GDPR-Cookie-Compliance","https://github.com/Jyxon/GDPR-Cookie-Compliance","A library to comply with the GDPR law.
-","47","","","","46","1","","","",""
-"com.hack23.cia:model.external.vdem.indicators.impl","https://github.com/Hack23/cia","model.external.vdem.indicators.impl
-","47","","","","","","","","","0"
-"bedrock-identity","https://github.com/digitalbazaar/bedrock-identity","Bedrock identity
-","46","","","","","","46","","",""
-"capa","https://github.com/Vinh-thuy/capa","Librairie Capa
-","42","","","42","","","","","",""
-"Umbrella_content","https://github.com/securityfirst/Umbrella_content","Content Used In Umbrella App
-","42","","","","","","","","","42"
-"@magic-modules/gdpr","https://github.com/magic-modules/gdpr","@magic gdpr module. shows a popup with cookie info.
-","41","","","","","41","","","",""
-"org.apache.activemq:artemis-journal","scm:git:http://git-wip-us.apache.org/repos/asf/activemq-artemis.git/artemis-journal","(missing project description)
-","41","","","","","","","41","",""
-"awesome-hacktivism","https://github.com/Nipher/awesome-hacktivism","A curated list about Hacktivism.
-","40","","","","","","","","","40"
-"org.hornetq:hornetq-journal","scm:git:git://github.com/hornetq/hornetq.git/hornetq-journal","HornetQ is an open source project to build a multi-protocol, embeddable, very high performance, clustered, asynchronous messaging system.
-","40","","","","","","","40","",""
-"orbit-db-identity-provider","https://github.com/orbitdb/orbit-db-identity-provider","Default identity provider for OrbitDB
-","38","","","","","","38","","",""
-"The-Eye","https://github.com/EgeBalci/The-Eye","Simple security surveillance script for linux distributions.
-","34","","","","","","","","","34"
-"@azure/identity","https://github.com/Azure/azure-sdk-for-js","Provides credential implementations for Azure SDK libraries that can authenticate with Azure Active Directory
-","31","","","","","","31","","",""
-"gulp-identity","https://github.com/soplakanets/gulp-identity","A gulp plugin that does nothing. Passes the stream/files unchanged.
-","29","","","","","","29","","",""
-"databunker","https://github.com/paranoidguy/databunker","Personally identifiable information (PII) storage service built to comply with GDPR and CCPA
-","28","","","28","","","","","",""
-"org.cloudfoundry.identity:cloudfoundry-identity-uaa","https://github.com/cloudfoundry/uaa","Cloud Foundry User Account and Authentication
-","28","","","","","","7","","",""
-"vulture","https://github.com/rndinfosecguy/vulture","WhatsApp Online Tracker
-","26","","","","","","","","","26"
-"piCamBot","https://github.com/scaidermern/piCamBot","Security camera based on a raspberry pi and Telegram, controllable by smartphone
-","24","","","","","","","","","24"
-"oauth-shim","https://github.com/MrSwitch/node-oauth-shim","OAuth2 shim for OAuth1 services, works with the clientside library HelloJS
-","21","21","","","","","","","",""
-"theWorldInSafety","https://github.com/damien911224/theWorldInSafety","Surveillance System Against Violence
-","20","","","","","","","","","20"
-"identity","None","Identity client
-","19","","0","3","","","8","","","0"
-"Cookie-Glasses","https://github.com/Perdu/Cookie-Glasses","This browser extension shows you whether consent registered by cookie banners of IAB Europe's Transparency & Consent Framework corresponds to your choice
-","19","","","","19","","","","",""
-"go-distributed-motion-s3","https://github.com/richbl/go-distributed-motion-s3","Distributed Motion Surveillance Security System (DMS3): a Go-based distributed video security system
-","19","","","","","","","","","19"
-"mjpeg-camera","https://github.com/mmaelzer/mjpeg-camera","A full-featured mjpeg camera streaming library
-","17","","","","","","","","","17"
-"nsa","https://github.com/yetzt/nsa","networked status aggregator
-","17","","","","","","","","","17"
-"systemd-journal","https://github.com/ledbettj/systemd-journal","Provides the ability to navigate and read entries from the systemd journal in ruby, as well as write events to the journal.
-","17","","","","","","","17","",""
-"jasny/sso","https://github.com/jasny/sso","Simple Single Sign-On
-","17","","","","","","","","17",""
-"discourse-sso","https://github.com/ArmedGuy/discourse_sso_node","Single-sign-on helper package for Discourse
-","15","","","","","","","","15",""
-"javascript-cookie-control","https://github.com/netgen/javascript-cookie-control","Javascript module for controling cookie consent on your website
-","13","","","","13","","","","",""
-"consent-string","https://github.com/InteractiveAdvertisingBureau/Consent-String-SDK-JS","Encode and decode web-safe base64 consent information with the IAB EU's GDPR Transparency and Consent Framework
-","13","","","","13","","","","",""
-"sanctuary-identity","https://github.com/sanctuary-js/sanctuary-identity","Fantasy Land -compliant Identity type
-","13","","","","","","13","","",""
-"nativescript-oauth","https://github.com/alexziskind1/nativescript-oauth","OAuth 2 login for NativeScript.
-","12","12","","","","","","","",""
-"simple-cookie-choices","https://github.com/caiojhonny/simple-cookie-choices","A simple cookie choices thought to the GDPR rules 🔒🍪
-","12","","","","12","","","","",""
-"@hashicorp-tmp/consent-manager","https://github.com/segmentio/consent-manager","Drop-in consent management plugin for analytics.js
-","12","","","","7","","","","",""
-"journalism","","UNKNOWN
-","12","","","","","","","9","","0"
-"ara-identity","https://github.com/AraBlocks/ara-identity","Create and resolve decentralized identity based Ara identifiers.
-","12","","","","","","12","","",""
-"openid/AppAuth-iOS","https://github.com/openid/AppAuth-iOS","iOS and macOS SDK for communicating with OAuth 2.0 and OpenID Connect providers.
-","11","","11","","","","","","",""
-"cookie-consent-box","https://github.com/adriandmitroca/cookie-consent-box","A tiny, dependency-free cookie box widget that helps you to be GDPR complaint after including 8 kB of code (gzipped)
-","11","","","","1","","","","",""
-"de.adorsys.psd2:consent-xs2a-api","https://github.com/adorsys/xs2a","Consent XS2A API
-","11","","","","4","","","","",""
-"redux-journal","https://github.com/lokhmakov/redux-journal","Debug journal over all app
-","11","","","","","","","11","",""
-"factom-identity-lib","https://github.com/PaulBernier/factom-identity","Library to read and update Factom identities
-","11","","","","","","11","","",""
-"uport-identity","https://github.com/uport-project/uport-identity","uPort Contracts for identity
-","10","","","","","","10","","",""
-"auth0-sso-login","https://github.com/Cimpress-MCP/auth0-sso-login.js","A Library to simplify the auth0 sso login process
-","10","","","","","","","","10",""
-"@types/openid-client","https://github.com/DefinitelyTyped/DefinitelyTyped","Stub TypeScript definitions entry for openid-client, which provides its own types definitions
-","9","","9","","","","","","",""
-"ConsentDialog","https://github.com/saiakhil90/ConsentDialog","A library for building Custom Consent Form for Android
-","9","","","","9","","","","",""
-"identity-function","https://github.com/substack/identity-function","module.exports = function (x) { return x }
-","9","","","","","","9","","",""
-"azure-identity","https://github.com/Azure/azure-sdk-for-python","Microsoft Azure Identity Library for Python
-","9","","","","","","9","","",""
-"fake-identity","https://github.com/travishorn/identity","Generate random identity objects including name, address, etc. This may be useful if you are trying to fill your application with random personal data.
-","9","","","","","","9","","",""
-"com.butor:butor-sso","https://bitbucket.org/butor-team/butor-sso","This project is the SSO module.
-","9","","","","","","","","9",""
-"org.jasig.cas:cas-server-support-openid","scm:git:git@github.com:Jasig/cas.git/cas-server-support-openid","cas-server-support-openid
-","8","","8","","","","","","",""
-"oauth2orize-openid","https://github.com/jaredhanson/oauth2orize-openid","Extensions to support OpenID Connect with OAuth2orize.
-","8","","8","","","","","","",""
-"cmp","https://github.com/ConsentStack/cmp","Open source, developer focused & human centric consent management platform.
-","8","","","","8","","","","",""
-"monad-journal","https://github.com/phaazon/monad-journal","This package provides a typeclass for logging in pure code, or more generally, in any kind of context. You can do whatever you want with logs, especially get them, clear them or even sink them through IO if you're logging in (MonadIO m) => m.
-","8","","","","","","","8","",""
-"atlas-git-identity","https://github.com/atlassubbed/atlas-git-identity","A CLI tool which sets a git repository's author based on package.json or arguments.
-","8","","","","","","8","","",""
-"skygear-sso","https://github.com/SkygearIO/skygear-SDK-JS","Single sign-on for Skygear JS SDK
-","8","","","","","","","","8",""
-"plg_fields_privacycheckbox","https://github.com/zero-24/plg_fields_privacycheckbox","This Joomla plugin lets you create new fields of type 'privacycheckbox' in any extensions where custom fields are supported.
-","7","","","","7","","","","",""
-"identity","https://github.com/dotronglong/dart-identity","Universal Identity library
-","7","","","","","","7","","",""
-"sso","https://github.com/dotronglong/dart-sso","A simple abstract single sign-on library for Dart
-","7","","","","","","","","7",""
-"simple-google-openid","https://github.com/jacekkopecky/node-simple-google-openid","A simple library for using Google as the authenticator of your application's users.
-","6","","6","","","","","","",""
-"android-gdpr-library","https://github.com/gdprsdk/android-gdpr-library","GPDR Consent Management Provider for Android
-","6","","","","6","","","","",""
-"react-native-ad-consent","https://github.com/birgernass/react-native-ad-consent","Uses the Google Mobile Ads Consent SDK to ask users for GDPR compliant ad consent. Supports iOS and Android.
-","6","","","","6","","","","",""
-"research.package","https://github.com/cph-cachet/research.package","A Flutter package implementing support for surveys like ResearchStack and ResearchKit
-","6","","","","6","","","","",""
-"nodebb-plugin-sso-github","https://github.com/julianlam/nodebb-plugin-sso-github","NodeBB GitHub SSO
-","6","","","","","","","","6",""
-"nodebb-plugin-sso-magento","https://github.com/julianlam/nodebb-plugin-sso-oauth","NodeBB Magento OAuth SSO
-","6","","","","","","","","0",""
-"react-cookie-kit","https://github.com/XcooBee/xcoobee-cookie-kit","GDPR / CCPA Easy Cookie and Fingerprint Consent Management for Websites.
-","5","","","2","","","","","",""
-"oxid-esales/gdpr-optin-module","https://github.com/OXID-eSales/gdpr-optin-module","This is the GDPR opt-in module for the OXID eShop.
-","5","","","","","5","","","",""
-"steverhoades/oauth2-openid-connect-server","https://github.com/steverhoades/oauth2-openid-connect-server","An OpenID Connect Server that sites on The PHP League's OAuth2 Server
-","5","","5","","","","","","",""
-"OAuth","https://github.com/randyzwitch/OAuth.jl","Pure Julia implementation of OAuth v1.0a
-","5","5","","","","","","","",""
-"com.typesafe.play:shaded-oauth","https://github.com/playframework/play-ws","shaded-oauth
-","5","5","","","","","","","",""
-"journal","https://github.com/mcansky/journal","Simple way to log activity on an object using a redis db
-","5","","","","","","","5","",""
-"oneint","https://github.com/oneint/oneint","Data Privacy platform that helps create and manage DSR requests from the users
-","4","","","4","","","","","",""
-"OAuth","https://github.com/EHER/OAuth.git","OAuth 1 PHP Library
-","4","4","","","","","","","",""
-"simplesamlphp/simplesamlphp-module-consent","https://github.com/simplesamlphp/simplesamlphp-module-consent","A module that will ask for user consent before releasing attributes
-","4","","","","4","","","","",""
-"grunt-surveil","https://github.com/peol/grunt-surveil","Watch files for changes, with granular control on the files and tasks it executes
-","4","","","","","","","","","4"
-"journal-chr","https://github.com/alexkravets/journal","Glutten-free foundation for editorial Character based websites.
-","4","","","","","","","4","",""
-"org.camunda.bpm.identity:camunda-identity-ldap","https://github.com/camunda/camunda-bpm-platform","Provides general dependencies and profiles for database testing
-","4","","","","","","4","","",""
-"nodebb-plugin-sso-twitter","https://github.com/julianlam/nodebb-plugin-sso-twitter","NodeBB Twitter SSO
-","4","","","","","","","","4",""
-"nodebb-plugin-sso-facebook","https://github.com/julianlam/nodebb-plugin-sso-facebook","NodeBB Facebook SSO
-","4","","","","","","","","4",""
-"ccpa-checklist","https://github.com/privacyradius/ccpa-checklist","The CCPA Checklist
-","3","","","3","","","","","",""
-"mageplaza/module-gdpr","https://github.com/mageplaza/magento-2-gdpr","Magento 2 GDPR Extensions
-","3","","","","","3","","","",""
-"cookie-mgmnt","https://github.com/L3-iGrant/cookie-mgmnt","This is the cookie management repo for implementing IAB/GDPR compliant cookie management functions
-","3","","","","3","","","","",""
-"omniledger","https://github.com/c4dt/omniledger","Frontend for the dedis/cothority blockchain with an accent on identity and consent-management
-","3","","","","3","","","","",""
-"amazon-cognito-identity-js-typescript","https://github.com/aws/amazon-cognito-identity-js","Amazon Cognito Identity Provider JavaScript SDK
-","3","","","","","","3","","",""
-"nodebb-plugin-sso-google","https://github.com/julianlam/nodebb-plugin-sso-google","NodeBB Google SSO
-","3","","","","","","","","3",""
-"CCPA-Out-Opts","https://github.com/Cauchon/CCPA-Out-Opts","The California Consumer Privacy Act (CCPA) provides consumers with the right to opt out and stop businesses from selling their personal information. This repo will attempt to compile a list of all sites supporting it and opt out links.
-","2","","","2","","","","","",""
-"get-consent","https://github.com/Kiosked/get-consent","GDPR consent string fetcher
-","2","","","0","0","","","","",""
-"origami/consent","https://github.com/papertank/origami-consent","Helper interface for user consent in laravel projects
-","2","","","","0","","","","",""
-"consent","https://github.com/dnulnets/consent","A consent handling web application and a PoA ethereum blockchain prototype using express on node.
-","2","","","","2","","","","",""
-"has-consent","https://github.com/Kiosked/has-consent","GDPR consent string validation library
-","2","","","","2","","","","",""
-"consentua-component","https://github.com/mrsideshowjack/consentua-component","Get and set user consents with Consentua
-","2","","","","2","","","","",""
-"hidalgo","https://github.com/gabegorelick/hidalgo.js","High quality disease surveillance algorithms
-","2","","","","","","","","","2"
-"ruby-adsb","https://github.com/lboekhorst/ruby-adsb","Decode automatic dependent surveillance broadcasts
-","2","","","","","","","","","2"
-"camelopard","https://github.com/fsandx/camelopard","IP camera toolbox package for Nodejs
-","2","","","","","","","","","2"
-"journal","https://github.com/askedrelic/journal","A CLI tool to help with keeping a work/personal journal
-","2","","","","","","","2","",""
-"ovh-angular-sso-auth","https://github.com/ovh-ux/ovh-angular-sso-auth.git","OVH Single Sign On module
-","2","","","","","","","","2",""
-"@ovh-ux/ng-ovh-sso-auth-modal-plugin","https://github.com/ovh-ux/manager","OVH SSO module - Modal plugin
-","2","","","","","","","","2",""
-"Zone-Cookie","https://github.com/zekinah/Zone-Cookie","This plugin is for GDPR and CCPA Privacy Laws. It is user friendly and very simple to used. It provides a control to your client data request and protection, messages and layout.
-","1","","","1","","","","","",""
-"ccp","https://github.com/maiha/ccp","CCP
-","1","","","1","","","","","",""
-"ccp","https://github.com/woohgit/changelog-client-python","A Python client for the Changelog API
-","1","","","1","","","","","",""
-"cpa","https://github.com/FlorianLudwig/cpa","full life cycle management for python apps and libs
-","1","","","1","","","","","",""
-"gdpr","https://github.com/lespoupeesrusses/gdpr","Adds a GDPR cookie consent and provides a simple checklist
-","1","","","","","1","","","",""
-"superbrave/gdpr-bundle","https://github.com/superbrave/gdpr-bundle","A Symfony bundle for using entity annotations according to GDPR requirements and anonymizing/exporting data
-","1","","","","","1","","","",""
-"specshaper/gdpr-bundle","https://github.com/mogilvie/GdprBundle","A Symfony 3|4 bundle for classifying entity parameters according to GDPR requirements and encrypting data
-","1","","","","","1","","","",""
-"rails-gdpr-export","https://github.com/epfl-exts/rails-gdpr-export","A rails gem to export personal data in compliance with GDPR.
-","1","","","","","1","","","",""
-"flask-openid","http://github.com/mitsuhiko/flask-openid/","Flask-OpenID adds openid support to flask applications
-","1","","1","","","","","","",""
-"daggerhart/openid-connect-generic","https://github.com/daggerhart/openid-connect-generic","OpenID Connect generic WordPress plugin.
-","1","","1","","","","","","",""
-"consent-form-builder","https://github.com/barnardos/consent-form-builder","Allow a Barnardo's researcher to enter details about an upcoming research session to produce consent forms.
-","1","","","","1","","","","",""
-"app-web-auth3","https://github.com/pryv/app-web-auth3","Vuejs implementation of authentication web app
-","1","","","","1","","","","",""
-"tcf-types","https://github.com/mairdumont-netletix/tcf-types","IAB's Transparency & Consent Framework types in TypeScript
-","1","","","","1","","","","",""
-"tcf-stub","https://github.com/mairdumont-netletix/tcf-stub","This package provides a TCFv2 CMP Stub in Typescript.
-","1","","","","1","","","","",""
-"cookie-consent-box-wordpress","https://github.com/adriandmitroca/cookie-consent-box-wordpress","Lightweight and good looking cookie consent box that helps you to be GDPR complaint.
-","1","","","","1","","","","",""
-"cookie-consent","https://github.com/kraftvaerk/cookie-consent","A solution to the EU Cookie Law
-","1","","","","1","","","","",""
-"@signatu/consent","https://github.com/signatu/consent","Consent client library for signatu
-","1","","","","1","","","","",""
-"consent","https://github.com/adamhalasz/consent","Fast, lightweight, customizable RFC 6749 compliant OAuth2 server. Works with diet and mongo.
-","1","","","","1","","","","",""
-"node-synology-surveillance","https://github.com/thorque/node-synology-surveillance","NPM module to interact with the Surveillance Station by Synology
-","1","","","","","","","","","1"
-"surveil","https://github.com/shenanigans/node-surveil","Really simple cross-platform directory and file watcher.
-","1","","","","","","","","","1"
-"Mojolicious-Plugin-Surveil","https://github.com/jhthorsen/mojolicious-plugin-surveil","Surveil user actions
-","1","","","","","","","","","1"
-"shinobi","https://gitlab.com/Shinobi-Systems/Shinobi-Installer","The Free Open Source CCTV platform written in Node.JS, Security Surveillance Software. This is the Installer script for downloading and installing Shinobi CCTV on Linux or MacOS.
-","1","","","","","","","","","1"
-"prism-break","https://github.com/nylira/prism-break","A directory of free privacy-oriented software.
-","1","","","","","","","","","1"
-"pimatic-ipcamera","https://github.com/funky81/pimatic-ip-camera","Tools to see IP Camera
-","1","","","","","","","","","1"
-"valkka-live","https://github.com/elsampsa/valkka-live","Valkka Live video surveillance program
-","1","","","","","","","","","1"
-"org.webjars:bootswatch-journal","https://github.com/webjars/bootswatch.git","A WebJar for Bootswatch
-","1","","","","","","","1","",""
-"libsystemd-journal","https://github.com/ocharles/libsystemd-journal","For package maintainers and hackage trustees
-","1","","","","","","","1","",""
-"wuethrich44/flarum-ext-sso","https://github.com/fabwu/flarum-ext-sso","Single Sign On for Flarum
-","1","","","","","","","","1",""
-"COB-FAKER","https://github.com/dinodev76/COB-FAKER","COBOL port (partial) of the Python Faker project - used to generate or anonymize test data requiring names, addresses, etc.
-","0","","","0","","","","","",""
-"ccpa-android-sdk","https://github.com/anuragdalia/ccpa-android-sdk","CCPA Android SDK to ask for users preferences
-","0","","","0","","","","","",""
-"digital-ccpa-optout","https://github.com/aaa-ncnu/digital-ccpa-dns","Digital CCPA Optout Front End
-","0","","","0","","","","","",""
-"ccja","https://github.com/ccxt/ccxt","A JavaScript / Python / PHP cryptocurrency trading library with support for 100+ exchanges
-","0","","","0","","","","","",""
-"cpca","https://github.com/DQinYuan/chinese_province_city_area_mapper","Chinese Province, City and Area Recognition Utilities
-","0","","","0","","","","","",""
-"cmpa","https://github.com/jamesabel/cmpa","Comparison utility
-","0","","","0","","","","","",""
-"ccpy","https://github.com/chyi341152/ccpy","Python Free Currency Converter
-","0","","","0","","","","","",""
-"cpa","https://github.com/Jiang-Xuan/cbm","Modify package.json filed version and auto add-commit when checkout new branch. ===============================================================================
-","0","","","0","","","","","",""
-"cpca","https://github.com/variani/cpca","Methods to perform Common Principal Component Analysis (CPCA)
-","0","","","0","","","","","",""
-"cpa","https://github.com/djanowski/cpa","A CLI tool to query Argentinean zip codes.
-","0","","","0","","","","","",""
-"@mdnx/express-cloudfront-gdpr","https://github.com/mairdumont-netletix/express-cloudfront-gdpr","express middleware to detect if gdpr or ccpa applies with the help of aws cloudfront
-","0","","","0","","","","","",""
-"capa","https://github.com/crvshlab/capa","capa can record animated GIFs (and videos) from the iOS Simulator and the Android Emulator because a GIF is worth a thousand lines of code.
-","0","","","0","","","","","",""
-"copa","https://github.com/emersonvinicius/copa","API in Ruby to acess data of copatransparente.org.br
-","0","","","0","","","","","",""
-"ph2m/gdpr","https://github.com/PH2M/GDPR","Magento 1 GDPR module
-","0","","","","","0","","","",""
-"offline/oc-gdpr-plugin","https://github.com/OFFLINE-GmbH/oc-gdpr-plugin","October CMS plugin to make websites GDPR and ePrivacy compliant
-","0","","","","","0","","","",""
-"fluffy-factory/gdpr-bundle","https://github.com/fluffy-factory/gdpr-bundle","GDPR Bundle
-","0","","","","","0","","","",""
-"georgringer/gdpr","https://github.com/georgringer/gdpr","Make TYPO3 more compatible to GDPR
-","0","","","","","0","","","",""
-"lundco/silverstripe-gdpr-cookies","https://github.com/lundco/silverstripe-gdpr-cookies","Control which cookies/services gets loaded when user enters website, to make it GDPR compliant
-","0","","","","","0","","","",""
-"adfab/m2-module-gdpr","https://github.com/AdFabConnect/magento2gdpr","GDPR compatibility
-","0","","","","","0","","","",""
-"simple-gdpr","https://github.com/borisrch/simple-gdpr","lightweight and simple gdpr solution
-","0","","","","","0","","","",""
-"django-GDPR","https://github.com/druids/django-GDPR","Library for GDPR implementation
-","0","","","","","0","","","",""
-"gdpr-cookie","https://github.com/thany/gdpr-cookie","A jQuery plugin to manage cookie settings in compliance with EU law
-","0","","","","","0","","","",""
-"gdpr-cookie","https://github.com/thany/gdpr-cookie.git","A jQuery plugin to manage cookie settings in compliance with EU law
-","0","","","","","0","","","",""
-"botfuel-module-gdpr","https://github.com/Botfuel/botfuel-module-gdpr","GDPR module for Botfuel Dialog
-","0","","","","","0","","","",""
-"dialect/laravel-gdpr-compliance","https://github.com/dialect-katrineholm/laravel-gdpr-compliance","GDPR compliant data portability and anonymization
-","0","","","","","0","","","",""
-"gdpr-cli","https://github.com/mirkoschubert/gdpr-check","Checks websites for GDPR compliance
-","0","","","","","0","","","",""
-"ace-gdpr","https://github.com/mtmendonca/ace-gdpr","GDPR compiance helper for atlas-connect-express applications
-","0","","","","","0","","","",""
-"gdpr-guard","https://github.com/Voltra/gdpr-guard","Simple GDPR manager
-","0","","","","","0","","","",""
-"gatsby-plugin-gdpr-cookies","https://github.com/andrezimpel/gatsby-plugin-gdpr-cookies","Gatsby plugin to add google analytics and facebook pixel in a gdpr form to your site
-","0","","","","","0","","","",""
-"gatsby-plugin-gdpr-tracking","https://github.com/andreas-straub/gatsby-plugin-gdpr-tracking","Gatsby plugin to add analytics and tracking services in a gdpr form.
-","0","","","","","0","","","",""
-"gdpr-age-of-majority","https://github.com/visualjeff/GDPR-AgeOfMajority","EU GDPR age of majority / consent validator
-","0","","","","","0","","","",""
-"@jexo/ace-gdpr","https://github.com/Jexoio/ace-gdpr","GDPR compliance helper for atlas-connect-express applications
-","0","","","","","0","","","",""
-"react-gdpr","https://github.com/jsellam/react-gdpr","React components for Cookies settings panel, cookie banner and redux store for GDPR Compliance websites
-","0","","","","","0","","","",""
-"cookie-consent-gdpr-api","https://github.com/plan4privacy-developers/cookie-consent-gdpr-api","Get your website’s usage of cookies compliant with the European GDPR mandatory rules.
-","0","","","","","0","","","",""
-"python3-openid","http://github.com/necaris/python3-openid","Python 3 port of the python-openid library
-","0","","0","","","","","","",""
-"jquery.cookie-consent","https://github.com/myspace-nu/jquery.cookie-consent","A simple jQuery plugin for requesting consent for cookie usage
-","0","","","","0","","","","",""
-"@bbc/psammead-consent-banner","https://github.com/bbc/psammead","React styled components for the Consent Banner
-","0","","","","0","","","","",""
-"rc-consent","https://github.com/RedCastor/rc-consent","Cookie consent a Vanilla JS plugin which meets General Data Protection Regulations (GDPR).
-","0","","","","0","","","","",""
-"consent-lex","https://github.com/Truemedia/consent-lex","A lexicon for giving or declining to give consent (yes and no)
-","0","","","","0","","","","",""
-"zaptech/cookie-consent","https://github.com/PartialDev/partialdev-cookie-consent","Customizable cookie consent notice for your Flarum installation
-","0","","","","0","","","","",""
-"reflar/cookie-consent","https://github.com/ReFlar/cookie-consent","Customizable cookie consent notice for your Flarum installation
-","0","","","","0","","","","",""
-"rampeur/cookie-consent-bundle","https://github.com/rampeur/cookie-consent-bundle","Symfony 4 Bundle for the Cookie Consent Plugin.
-","0","","","","0","","","","",""
-"gpt-consent","https://github.com/zapthedingbat/gpt-consent","Minimal GPT consent prompt
-","0","","","","0","","","","",""
-"active-surveillance","https://github.com/Andrew-Hagedorn/active-surveillance","Configurable website monitoring.
-","0","","","","","","","","","0"
-"rpi-surveillance","https://github.com/erming/rpi-surveillance","## License
-","0","","","","","","","","","0"
-"travis-surveillance","https://github.com/dylanegan/travis-surveillance","Veille sur un projet.
-","0","","","","","","","","","0"
-"bez-dk/network-surveillance","https://github.com/bez-dk/network-surveillance","Module to manage and log network traffic
-","0","","","","","","","","","0"
-"dvripclient","https://github.com/Kinsi55/node_dvripclient","Client for various Surveillance cameras and DVR's operating under the DVR-IP protocol, also known as NetSurveillance or Sofia
-","0","","","","","","","","","0"
-"cctv-everywhere","https://github.com/moklick/cctv-everywhere","A creepy CCTV Widget for your website.
-","0","","","","","","","","","0"
-"piveilance","https://github.com/vossenv/piveilance","PiCam Surveilance App
-","0","","","","","","","","","0"
-"eazebot","https://github.com/marcelbeining/eazebot","Free python/telegram bot for easy execution and surveillance of crypto trading plans on multiple exchanges
-","0","","","","","","","","","0"
-"pieveilance","https://github.com/vossenv/pieveilance","PiCam Surveilance App
-","0","","","","","","","","","0"
-"journaled","https://github.com/Betterment/journaled","A Rails engine to durably deliver schematized events to Amazon Kinesis via DelayedJob.
-","0","","","","","","","0","",""
-"git-journal","https://github.com/saschagrunert/git-journal","The Git Commit Message and Changelog Generation Framework
-","0","","","","","","","0","",""
-"journal-brief","https://github.com/twaugh/journal-brief","Show interesting new systemd journal entries since last run
-","0","","","","","","","0","",""
-"org-journal","http://github.com/bastibe/org-journal","a simple org-mode based journaling mode
-","0","","","","","","","0","",""
-"journall","https://github.com/RichardLitt/journall","Create a journal entry a day in markdown.
-","0","","","","","","","0","",""
-"journally","https://github.com/96aa48/journally","A journalctl wrapper for nice colors and filters
-","0","","","","","","","0","",""
-"github.com/SpectoLabs/hoverfly/core/journal","https://github.com/SpectoLabs/hoverfly/core/journal","Lightweight service virtualization/API simulation tool for developers and testers
-","0","","","","","","","0","",""
-"cmdr-journal","https://github.com/chrisbruford/cmdr-journal","Models, Enums and Types for the Elite Dangerous CMDR Journal
-","0","","","","","","","0","",""
-"@dvsa/mes-journal-schema","https://github.com/dvsa/mes-api-definitions","JSON Schema of examiner journal data sourced from TARS
-","0","","","","","","","0","",""
-"journal","https://github.com/sambou/journal","A library to track writes to Ecto models.
-","0","","","","","","","0","",""
-"journal","https://github.com/abritinthebay/journal","Journal is a NodeJS blogging and content management platform strongly influenced by WordPress and LiveJournal
-","0","","","","","","","0","",""
-"journal","https://github.com/groktools/journal","A simple journal package. Allows you to create journal entries in a markdown file
-","0","","","","","","","0","",""
-"github.com/gravitational/gravity/lib/vacuum/prune/journal","https://github.com/gravitational/gravity/lib/vacuum/prune/journal","Opinionated image-based Kubernetes packaging and management tools.
-","0","","","","","","","0","",""
-"github.com/ftpgrab/ftpgrab/internal/journal","https://github.com/ftpgrab/ftpgrab/internal/journal","⚡ Grab your files periodically from a remote FTP or SFTP server easily
-","0","","","","","","","0","",""
-"factual/s3-journal","https://github.com/Factual/s3-journal","Reliable, high-throughput journalling to S3
-","0","","","","","","","0","",""
-"atom-journal","https://github.com/duckbrain/atom-journal","Open markdown files for notes and journal entries
-","0","","","","","","","0","",""
-"identity","https://github.com/pthariensflame/identity.rs","A stable Rust implementation of an identity (a.k.a., “equality witness”) type.
-","0","","","","","","0","","",""
-"sso","https://github.com/mojzu/sso","Single sign-on authentication server.
-","0","","","","","","","","0",""
-"github.com/buzzfeed/sso/internal/proxy","https://github.com/buzzfeed/sso/internal/proxy","sso, aka S.S.Octopus, aka octoboi, is a single sign-on solution for securing internal services
-","0","","","","","","","","0",""
-"nodebb-plugin-sso-qq-fix","https://github.com/NodeBB-China/nodebb-plugin-sso-qq-fix","NodeBB Plugin that allows users to login/register via their QQ account.
-","0","","","","","","","","0",""
-"pressbooks/pressbooks-saml-sso","https://github.com/pressbooks/pressbooks-saml-sso","Shibboleth Single Sign-On integration for Pressbooks.
-","0","","","","","","","","0",""
-"github.com/buzzfeed/sso/internal/auth","https://github.com/buzzfeed/sso/internal/auth","sso, aka S.S.Octopus, aka octoboi, is a single sign-on solution for securing internal services
-","0","","","","","","","","0",""
-"github.com/buzzfeed/sso/internal/proxy/providers","https://github.com/buzzfeed/sso/internal/proxy/providers","sso, aka S.S.Octopus, aka octoboi, is a single sign-on solution for securing internal services
-","0","","","","","","","","0",""
-"github.com/buzzfeed/sso/internal/pkg/singleflight","https://github.com/buzzfeed/sso/internal/pkg/singleflight","sso, aka S.S.Octopus, aka octoboi, is a single sign-on solution for securing internal services
-","0","","","","","","","","0",""
-"github.com/buzzfeed/sso/internal/auth/statik","https://github.com/buzzfeed/sso/internal/auth/statik","sso, aka S.S.Octopus, aka octoboi, is a single sign-on solution for securing internal services
-","0","","","","","","","","0",""
-"github.com/buzzfeed/sso/internal/pkg/templates","https://github.com/buzzfeed/sso/internal/pkg/templates","sso, aka S.S.Octopus, aka octoboi, is a single sign-on solution for securing internal services
-","0","","","","","","","","0",""
-"pressbooks/pressbooks-cas-sso","https://github.com/pressbooks/pressbooks-cas-sso","CAS Single Sign-On integration for Pressbooks.
-","0","","","","","","","","0",""
-"github.com/buzzfeed/sso/internal/auth/providers","https://github.com/buzzfeed/sso/internal/auth/providers","sso, aka S.S.Octopus, aka octoboi, is a single sign-on solution for securing internal services
-","0","","","","","","","","0",""
-"github.com/buzzfeed/sso/internal/pkg/testutil","https://github.com/buzzfeed/sso/internal/pkg/testutil","sso, aka S.S.Octopus, aka octoboi, is a single sign-on solution for securing internal services
-","0","","","","","","","","0",""
-"mo9-sso","https://github.com/HelloSkull/mo9-sso","a module for mo9 ticket validate
-","0","","","","","","","","0",""
+"Ghost","https://github.com/TryGhost/Ghost","The headless Node.js CMS for professional publishing","32818","","","","","","","32818","",""
+"hydra","https://github.com/ory/hydra","OAuth Server and OpenID Certified OpenID Connect Provider written in Go cloud native, security first, open source API security for your infrastructure. SDKs for any language.","32336","8084","8084","","","","8084","","8084",""
+"awesome-falsehood","https://github.com/kdeldycke/awesome-falsehood","Falsehoods Programmers Believe in","11427","","","","","","11427","","",""
+"goaccess","https://github.com/allinurl/goaccess","GoAccess is a real time web log analyzer and interactive viewer that runs in a terminal in nix systems or through your browser.","10820","","","","","10820","","","",""
+"doorkeeper","https://github.com/doorkeeper-gem/doorkeeper","Doorkeeper is an OAuth provider for Ruby on Rails / Grape.","9052","4526","","","","","4526","","",""
+"cas","https://github.com/apereo/cas","Apereo CAS Enterprise Single Sign On for all earthlings and beyond.","7262","","","","","","","","7262",""
+"OpenRefine","https://github.com/OpenRefine/OpenRefine","OpenRefine is a free, open source power tool for working with messy data and improving it","6900","","","","","","","6900","",""
+"lynis","https://github.com/CISOfy/lynis","Lynis Security auditing tool for Linux, macOS, and UNIX based systems. Assists with compliance testing (HIPAA/ISO /PCI DSS) and system hardening. Agentless, and installation optional.","6664","","","","","6664","","","",""
+"IdentityServer4","https://github.com/IdentityServer/IdentityServer4","OpenID Connect and OAuth . Framework for ASP.NET Core","5966","","","","","","5966","","",""
+"frontend","https://github.com/guardian/frontend","The Guardian Dot Com.","5418","","","","","","","5418","",""
+"oauth2-server","https://github.com/thephpleague/oauth2-server","A spec compliant, secure by default PHP OAuth . Server","5335","5335","","","","","","","",""
+"scribejava","https://github.com/scribejava/scribejava","Simple OAuth library for Java","4984","4984","","","","","","","",""
+"cpprestsdk","https://github.com/microsoft/cpprestsdk","The C REST SDK is a Microsoft project for cloud based client server communication in native code using a modern asynchronous C API design. This project aims to help C developers connect to and interact with services.","4943","4943","","","","","","","",""
+"sso","https://github.com/buzzfeed/sso","sso, aka S.S.Octopus, aka octoboi, is a single sign on solution for securing internal services","4710","2355","","","","","","","2355",""
+"cookieconsent","https://github.com/osano/cookieconsent","A free solution to the EU, GDPR, and California Cookie Laws","4696","","","2348","","2348","","","",""
+"oauthlib","https://github.com/oauthlib/oauthlib","A generic, spec compliant, thorough implementation of the OAuth request signing logic","3926","1963","","","","","1963","","",""
+"hope-boot","https://github.com/hope-for/hope-boot","Hope Boot","3136","","","","","","","","3136",""
+"securedrop","https://github.com/freedomofpress/securedrop","GitHub repository for the SecureDrop whistleblower platform. Do not submit tips here","2832","","","","","","","2832","",""
+"nodejs-api-starter","https://github.com/kriasoft/nodejs-api-starter","A GraphQL API boilerplate (template) made with Node.js, TypeScript, and PostgreSQL","2695","2695","","","","","","","",""
+"grant","https://github.com/simov/grant","OAuth Middleware for Express, Koa and Hapi","2624","2624","","","","","","","",""
+"OAuthSwift","https://github.com/OAuthSwift/OAuthSwift","Swift based OAuth library for iOS","2570","2570","","","","","","","",""
+"login-with","https://github.com/lipp/login-with","Stateless login with microservice for OAuth","2249","2249","","","","","","","",""
+"tailscale","https://github.com/tailscale/tailscale","The easiest, most secure way to use WireGuard and FA.","2228","1114","","","","","","","1114",""
+"prowler","https://github.com/toniblyx/prowler","AWS Security Best Practices Assessment, Auditing, Hardening and Forensics Readiness Tool. It follows guidelines of the CIS Amazon Web Services Foundations Benchmark and DOZENS of additional checks including GDPR and HIPAA ( ). Official CIS for AWS guide https //d .awsstatic.com/whitepapers/compliance/AWS CIS Foundations Benchmark.pdf","2203","","","","","2203","","","",""
+"cli","https://github.com/smallstep/cli","A zero trust swiss army knife for working with X , OAuth, JWT, OATH OTP, etc.","2062","1031","","","","","","","1031",""
+"praw","https://github.com/praw-dev/praw","PRAW, an acronym for Python Reddit API Wrapper , is a python package that allows for simple access to Reddit s API.","2048","2048","","","","","","","",""
+"blockstack-core","https://github.com/blockstack/blockstack-core","The Stacks . blockchain implementation","1981","","","","","","1981","","",""
+"privacytools.io","https://github.com/privacytoolsIO/privacytools.io","You are being watched. Protect your privacy against global mass surveillance.","1969","","","","","","","","","1969"
+"HWIOAuthBundle","https://github.com/hwi/HWIOAuthBundle","OAuth client integration for Symfony. Supports both OAuth . a and OAuth .","1939","1939","","","","","","","",""
+"spring-boot-cloud","https://github.com/zhangxd1989/spring-boot-cloud","Spring Boot Spring Cloud Spring Oauth Spring Cloud Netflix","1909","1909","","","","","","","",""
+"pac4j","https://github.com/pac4j/pac4j","Security engine for Java (authentication, authorization, multi frameworks) OAuth, CAS, SAML, OpenID Connect, LDAP, JWT...","1748","1748","","","","","","","",""
+"Monkey","https://github.com/coderyi/Monkey","Monkey is a unofficial GitHub client for iOS,to show the rank of coders and repositories.","1730","1730","","","","","","","",""
+"awesome-interactive-journalism","https://github.com/wbkd/awesome-interactive-journalism","A list of awesome interactive journalism projects.","1685","","","","","","","1685","",""
+"authlib","https://github.com/lepture/authlib","The ultimate Python library in building OAuth, OpenID Connect clients and servers. JWS,JWE,JWK,JWA,JWT included.","1603","1603","","","","","","","",""
+"oauth2_proxy","https://github.com/pusher/oauth2_proxy","A reverse proxy that provides authentication with Google, Github or other providers.","1427","","","","","","","","1427",""
+"talk","https://github.com/coralproject/talk","A better commenting experience from Vox Media","1426","","","","","","","1426","",""
+"flask-oauthlib","https://github.com/lepture/flask-oauthlib","YOU SHOULD USE https //github.com/lepture/authlib","1386","1386","","","","","","","",""
+"smart","https://github.com/a466350665/smart","Java SpringBoot","1367","","","","","","","","1367",""
+"fosite","https://github.com/ory/fosite","Extensible security first OAuth . and OpenID Connect SDK for Go.","1358","1358","","","","","","","",""
+"JPProject.IdentityServer4.AdminUI","https://github.com/brunohbrito/JPProject.IdentityServer4.AdminUI","wrench ASP.NET Core Angular Administration Panel for revolving hearts IdentityServer and ASP.NET Core Identity","1347","","449","","","","449","","449",""
+"vue-authenticate","https://github.com/dgrubelic/vue-authenticate","Simple Vue.js authentication library","1231","1231","","","","","","","",""
+"AspNet5IdentityServerAngularImplicitFlow","https://github.com/damienbod/AspNet5IdentityServerAngularImplicitFlow","OpenID Connect Code / Implicit Flow with Angular and ASP.NET Core . IdentityServer","1206","","603","","","","603","","",""
+"spring-security-oauth","https://github.com/Baeldung/spring-security-oauth","Just Announced Learn Spring Security OAuth","1206","1206","","","","","","","",""
+"nextjs-starter","https://github.com/iaincollins/nextjs-starter","A starter project for Next.js with authentication","1198","1198","","","","","","","",""
+"classroom","https://github.com/education/classroom","GitHub Classroom automates repository creation and access control, making it easy for teachers to distribute starter code and collect assignments on GitHub.","1192","1192","","","","","","","",""
+"aleph","https://github.com/alephdata/aleph","Search and browse documents and data find the people and companies you look for.","1182","","","","","","","1182","",""
+"itext7","https://github.com/itext/itext7","iText for Java represents the next level of SDKs for developers that want to take advantage of the benefits PDF can bring. Equipped with a better document engine, high and low level programming capabilities and the ability to create, edit and enhance PDF documents, iText can be a boon to nearly every workflow.","1174","","","587","","587","","","",""
+"hack-the-media","https://github.com/nemild/hack-the-media","This repo collects examples of intentional and unintentional hacks of media sources","1145","","","","","","","1145","",""
+"blockstack-browser","https://github.com/blockstack/blockstack-browser","The Blockstack Browser","1104","","","","","","1104","","",""
+"xxl-sso","https://github.com/xuxueli/xxl-sso","A distributed single sign on framework. XXL SSO","1104","","","","","","","","1104",""
+"ueberauth","https://github.com/ueberauth/ueberauth","An Elixir Authentication System for Plug based Web Applications","1092","1092","","","","","","","",""
+"pomerium","https://github.com/pomerium/pomerium","Pomerium is an identity aware access proxy.","1039","","","","","","1039","","",""
+"node-oidc-provider","https://github.com/panva/node-oidc-provider","OpenID Certified OAuth . Authorization Server implementation for Node.js","990","","990","","","","","","",""
+"auth0-socketio-jwt","https://github.com/auth0-community/auth0-socketio-jwt","Authenticate socket.io incoming connections with JWTs","984","","","","","","984","","",""
+"accounts","https://github.com/accounts-js/accounts","Fullstack authentication and accounts management for Javascript.","964","964","","","","","","","",""
+"scalaj-http","https://github.com/scalaj/scalaj-http","Simple scala wrapper for HttpURLConnection. OAuth included.","927","927","","","","","","","",""
+"presidio","https://github.com/microsoft/presidio","Context aware, pluggable and customizable data protection and anonymization service for text and images","910","","","","","910","","","",""
+"socialite","https://github.com/overtrue/socialite","octocat Socialite is an OAuth Authentication tool. It is inspired by laravel/socialite, you can easily use it without Laravel.","905","905","","","","","","","",""
+"jbone","https://github.com/417511458/jbone","jbone Spring Cloud jbone JVM API CMS","890","","","","","","","","890",""
+"google-auth-library-nodejs","https://github.com/googleapis/google-auth-library-nodejs","Google Auth Library for Node.js","865","865","","","","","","","",""
+"itext7-dotnet","https://github.com/itext/itext7-dotnet","iText for .NET is the .NET version of the iText library, formerly known as iTextSharp, which it replaces. iText represents the next level of SDKs for developers that want to take advantage of the benefits PDF can bring. Equipped with a better document engine, high and low level programming capabilities and the ability to create, edit and enhance PDF documents, iText can be a boon to nearly every workflow.","840","","","420","","420","","","",""
+"authelia","https://github.com/authelia/authelia","The Single Sign On Multi Factor portal for web apps","817","","","","","","","","817",""
+"play-silhouette","https://github.com/mohiva/play-silhouette","Silhouette is an authentication library for Play Framework applications that supports several authentication methods, including OAuth , OAuth , OpenID, CAS, FA, TOTP, Credentials, Basic Authentication or custom authentication schemes.","804","","804","","","","","","",""
+"spring-boot-security-saml-sample","https://github.com/vdenotaris/spring-boot-security-saml-sample","SBS A sample SAML . Service Provider built on Spring Boot.","792","","","","","","396","","396",""
+"jso","https://github.com/andreassolberg/jso","Easy to use OAuth . javascript library for use in your javascript application.","791","","","","","","","","791",""
+"sso","https://github.com/kawhii/sso","cas cas","682","","","","","","","","682",""
+"contextualise","https://github.com/brettkromkamp/contextualise","Contextualise is a simple and flexible tool particularly suited for organising information heavy projects and activities consisting of unstructured and widely diverse data and information resources","670","","","","","","","670","",""
+"keycloak-gatekeeper","https://github.com/keycloak/keycloak-gatekeeper","A OpenID / Keycloak Proxy service","647","","647","","","","","","",""
+"java-cas-client","https://github.com/apereo/java-cas-client","Apereo Java CAS Client","638","","","","","","","","638",""
+"Digital-Privacy","https://github.com/No-Github/Digital-Privacy",", (OSINT) ( )","636","","","","","","","","","636"
+"fw-cloud-framework","https://github.com/liuweijw/fw-cloud-framework","springcloud oauth SSO Shardingdbc redis Vue","630","","","","","","","","630",""
+"jose-jwt","https://github.com/dvsekhvalnov/jose-jwt","Ultimate Javascript Object Signing and Encryption (JOSE) and JSON Web Token (JWT) Implementation for .NET and .NET Core","619","","619","","","","","","",""
+"product-is","https://github.com/wso2/product-is","Welcome to the WSO Identity Server source code For info on working with the WSO Identity Server repository and contributing code, click the link below.","618","","","","","","309","","309",""
+"WeIdentity","https://github.com/WeBankFinTech/WeIdentity","W C DID Verifiable Credential","596","","","","","","596","","",""
+"spiffe","https://github.com/spiffe/spiffe","The SPIFFE Project","589","","","","","","589","","",""
+"informer","https://github.com/paulpierre/informer","A Telegram Mass Surveillance Bot in Python","577","","","","","","","","","577"
+"gdpr-checklist","https://github.com/privacyradius/gdpr-checklist","The GDPR Checklist","571","","","","","571","","","",""
+"vouch-proxy","https://github.com/vouch/vouch-proxy","an SSO and OAuth / OIDC login solution for Nginx using the auth request module","555","","","","","","","","555",""
+"django-oidc-provider","https://github.com/juanifioren/django-oidc-provider","OpenID Connect and OAuth provider implementation for Djangonauts.","554","","277","","","","277","","",""
+"microsoft-authentication-library-for-dotnet","https://github.com/AzureAD/microsoft-authentication-library-for-dotnet","Microsoft Authentication Library (MSAL) for .NET","551","","","","","","551","","",""
+"gdpr_rails","https://github.com/prey/gdpr_rails","Rails Engine for the GDPR compliance","548","","","","","548","","","",""
+"node-openid-client","https://github.com/panva/node-openid-client","OpenID Certified Relying Party (RP, Client) implementation for Node.js. Wide feature coverage including optional specifications and passport strategy is included.","546","","546","","","","","","",""
+"IdentityModel","https://github.com/IdentityModel/IdentityModel",".NET standard helper library for claims based identity, OAuth . and OpenID Connect.","532","","","","","","532","","",""
+"OpenDSR","https://github.com/opengdpr/OpenDSR","A common framework enabling companies to work together to protect consumers privacy and data rights.","522","","","261","","261","","","",""
+"multitor","https://github.com/trimstray/multitor","Create multiple TOR instances with a load balancing.","512","","","","","","512","","",""
+"yett","https://github.com/snipsco/yett","A small webpage library to control the execution of (third party) scripts","508","","","","","508","","","",""
+"klaro","https://github.com/KIProtect/klaro","Klaro A simple and powerful tool to manage user consent on websites.","478","","","","239","239","","","",""
+"NSABlocklist","https://github.com/CHEF-KOCH/NSABlocklist","HOSTS file and research project to block all known NSA / GCHQ / C.I.A. / F.B.I. spying server","478","","","","","","","","","478"
+"OwinOAuthProviders","https://github.com/TerribleDev/OwinOAuthProviders","OAuth providers for Owin","471","","471","","","","","","",""
+"OSINT_Collection","https://github.com/Ph055a/OSINT_Collection","Maintained collection of OSINT related resources. (All Free Actionable)","454","","","","","","","454","",""
+"letterpad","https://github.com/letterpad/letterpad","Letterpad is an open source and a high performant publishing engine for blogs built with react graphql and runs ridiculously fast","450","","","","","","","450","",""
+"taoshop","https://github.com/u014427391/taoshop","SpringBoot Dubbo . releases https //github.com/u /taoshop/releases ( ...)","429","","","","","","","","429",""
+"comply","https://github.com/strongdm/comply","Compliance automation framework, focused on SOC","401","","","","","401","","","",""
+"auth","https://github.com/SocialConnect/auth","atom Social (OAuth OAuth OpenID OpenIDConnect) sign with PHP shipit","395","","395","","","","","","",""
+"nrol-39-logo","https://github.com/palewire/nrol-39-logo","A vector PDF of the official mission logo of NROL released via FOIA","391","","","","","","","","","391"
+"freeipa","https://github.com/freeipa/freeipa","Mirror of FreeIPA, an integrated security information management solution","386","","","","","","386","","",""
+"angular-auth-oidc-client","https://github.com/damienbod/angular-auth-oidc-client","npm package for OpenID Connect Code Flow with PKCE, Implicit Flow","380","","380","","","","","","",""
+"app","https://github.com/simple-login/app","The SimpleLogin back end","378","","","","","","","","378",""
+"ngx-starter-kit","https://github.com/xmlking/ngx-starter-kit","a Angular rocket NestJS monkey Starter Kit","376","","376","","","","","","",""
+"ScatterWebExtension","https://github.com/GetScatter/ScatterWebExtension","Extension that allows you to sign transactions with your private keys securely from within the browser without ever exposing them.","362","","","","","","362","","",""
+"oil","https://github.com/as-ideas/oil","Open Source GDPR Consent Management Provider (CMP), Opt In Layer (oil.js), supports the IAB Framework","358","","","","179","179","","","",""
+"laravel-personal-data-export","https://github.com/spatie/laravel-personal-data-export","Create zip files containing personal data","325","","","","","325","","","",""
+"aws-google-auth","https://github.com/cevoaustralia/aws-google-auth","Provides AWS STS credentials based on Google Apps SAML SSO auth (what a jumble )","324","","","","","","","","324",""
+"awesome-zero-trust","https://github.com/pomerium/awesome-zero-trust","A curated collection of awesome resources for the zero trust security model.","308","","","","","","308","","",""
+"openid_connect","https://github.com/nov/openid_connect","OpenID Connect Server Client Library","306","","306","","","","","","",""
+"android-hidden-camera","https://github.com/kevalpatel2106/android-hidden-camera","This library is to take picture using camera without camera preview.","304","","","","","","","","","304"
+"OSINT_Team_Links","https://github.com/IVMachiavelli/OSINT_Team_Links","Links for the OSINT Team","302","","","","","","","302","",""
+"uport-connect","https://github.com/uport-project/uport-connect","Main uPort library for front end developers","292","","","","","","292","","",""
+"samlify","https://github.com/tngan/samlify","Node.js API for Single Sign On (SAML . )","292","","","","","","","","292",""
+"VoteRobot","https://github.com/debugtalk/VoteRobot","","287","","287","","","","","","",""
+"Scout","https://github.com/tevora-threat/Scout","Surveillance Detection Scout Your Lookout on Autopilot","272","","","","","","","","","272"
+"aws-security-workshops","https://github.com/aws-samples/aws-security-workshops","A collection of the latest AWS Security workshops","267","","","","","","267","","",""
+"oauth2-server","https://github.com/jobmission/oauth2-server","spring boot (springboot ) oauth server sso JWT, ,","267","","","","","","","","267",""
+"OpenID-Connect-PHP","https://github.com/jumbojett/OpenID-Connect-PHP","Minimalist OpenID Connect client","266","","266","","","","","","",""
+"Ghost-CLI","https://github.com/TryGhost/Ghost-CLI","CLI Tool for installing updating Ghost","264","","","","","","","264","",""
+"openstack4j","https://github.com/ContainX/openstack4j","A Fluent OpenStack SDK / Client Library for Java","262","","","","","","262","","",""
+"passport-steam","https://github.com/liamcurry/passport-steam","Steam (OpenID) authentication strategy for Passport and Node.js.","257","","257","","","","","","",""
+"equatable","https://github.com/felangel/equatable","Simplify Equality Comparisons A Dart abstract class that helps to implement equality without needing to explicitly override and hashCode.","256","","","","","","256","","",""
+"open-semantic-search","https://github.com/opensemanticsearch/open-semantic-search","Open Semantic Search Engine and Open Source Text Mining Text Analytics platform (Integrates ETL for document processing, OCR for images PDF, named entity recognition for persons, organizations locations, metadata management by thesaurus ontologies, search user interface search apps for fulltext search, faceted search knowledge graph)","255","","","","","","","255","",""
+"Finbuckle.MultiTenant","https://github.com/Finbuckle/Finbuckle.MultiTenant","Finbuckle.MultiTenant is a multitenancy library for ASP.NET Core. It provides functionality for tenant resolution, per tenant app configuration, and per tenant data isolation.","242","","","","","","242","","",""
+"pigeon","https://github.com/geraldoramos/pigeon","Pigeon is a simple D printed cloud home surveillance camera project that uses the new Raspberry Pi Zero W","239","","","","","","","","","239"
+"AspNetCoreApiStarter","https://github.com/mmacneil/AspNetCoreApiStarter","An ASP.NET Core (v . ) Web API project to quickly bootstrap new projects. Includes Identity, JWT authentication w/ refresh tokens.","239","","","","","","239","","",""
+"oxAuth","https://github.com/GluuFederation/oxAuth","OAuth . server and client OpenID Connect Provider (OP) UMA Authorization Server (AS)","237","","","","","","","","237",""
+"django-cas-ng","https://github.com/django-cas-ng/django-cas-ng","Django CAS . / . / . client authentication library, support Django . , . , . , . and Python .","236","","","","","","","","236",""
+"JacobAppelbaumLeavesTor","https://github.com/Enegnei/JacobAppelbaumLeavesTor","mag An investigation into Jacob Appelbaum leaving the Tor Project","219","","","","73","","","73","","73"
+"stormpath-sdk-java","https://github.com/stormpath/stormpath-sdk-java","Official Java SDK for the Stormpath User Management REST API","219","","","","","","219","","",""
+"gdpr-documents","https://github.com/good-lly/gdpr-documents","Your Right to be Informed and Erased. The General Data Protection Regulation (EU) / ( GDPR ) documents for personal use.","213","","","","","213","","","",""
+"Cookies-EU-banner","https://github.com/Alex-D/Cookies-EU-banner","kb vanilla JS script which manage cookies consent banner display like asked by GDPR","212","","","","","212","","","",""
+"snowden-archive","https://github.com/iamcryptoki/snowden-archive","A collection of all documents leaked by former NSA contractor and whistleblower Edward Snowden.","210","","","","","","","","","210"
+"tkey","https://github.com/cdk8s/tkey","SSO","206","","","","","","","","206",""
+"WhereAreTheEyes","https://github.com/DaylightingSociety/WhereAreTheEyes","Surveillance Detection and Mapping App","203","","","","","","","","","203"
+"cjworkbench","https://github.com/CJWorkbench/cjworkbench","The data journalism platform with built in training","203","","","","","","","203","",""
+"CAS_SSO_Record","https://github.com/X-rapido/CAS_SSO_Record","CAS SSO Iframe SSO Restful API SSO JWT","199","","","","","","","","199",""
+"ipscrub","https://github.com/masonicboom/ipscrub","IP address anonymizer module for nginx","196","","","","","196","","","",""
+"NewId","https://github.com/phatboyg/NewId","A sequential id generator that works across nodes with no collisions","196","","","","","","196","","",""
+"ClearGDPR","https://github.com/ClearGDPR/ClearGDPR","GDPR Compliance Solution","193","","","","","193","","","",""
+"rpisurv","https://github.com/SvenVD/rpisurv","Raspberry Pi surveillance","189","","","","","","","","","189"
+"personal-security-checklist","https://github.com/Lissy93/personal-security-checklist","A curated checklist of tips for protecting digital security and privacy in","188","","","","","","","","","188"
+"GDPRDialog","https://github.com/MFlisar/GDPRDialog","GDPR fragment dialog implementation","178","","","","","178","","","",""
+"Civil","https://github.com/joincivil/Civil","The Main Monorepo and entry point of all things Civil","177","","","","","","","177","",""
+"ios-consent-sdk","https://github.com/smartlook/ios-consent-sdk","Configurable consent SDK for iOS","175","","","","175","","","","",""
+"notebooks","https://github.com/datadesk/notebooks","All of our computational notebooks","165","","","","","","","165","",""
+"SSOwat","https://github.com/YunoHost/SSOwat","A simple SSO for nginx, written in Lua","164","","","","","","","","164",""
+"laravel-gdpr","https://github.com/sander3/laravel-gdpr","GDPR compliance with ease.","162","","","","","162","","","",""
+"tarbell","https://github.com/tarbell-project/tarbell","A Flask based static site authoring tool.","156","","","","","","","156","",""
+"nginx-http-shibboleth","https://github.com/nginx-shib/nginx-http-shibboleth","Shibboleth auth request module for nginx","151","","","","","","","","151",""
+"wazuh-kibana-app","https://github.com/wazuh/wazuh-kibana-app","Wazuh Kibana plugin","142","","","","","142","","","",""
+"spring-boot-keycloak-tutorial","https://github.com/sebastienblanc/spring-boot-keycloak-tutorial","Easily Secure your Spring Boot Apps with Keycloak","141","","141","","","","","","",""
+"awesome-virgil","https://github.com/VirgilSecurity/awesome-virgil","Key Management and Crypto Building Block for your App or Device.","140","","","","","140","","","",""
+"jose2go","https://github.com/dvsekhvalnov/jose2go","Golang (GO) implementation of Javascript Object Signing and Encryption specification","134","","134","","","","","","",""
+"VanillaRAT","https://github.com/DannyTheSloth/VanillaRAT","VanillaRat is an advanced remote administration tool completely coded in C for Windows.","129","","","","","","","","","129"
+"GDPR","https://github.com/trewknowledge/GDPR","This plugin is meant to assist a Controller, Data Processor, and Data Protection Officer (DPO) with efforts to meet the obligations and rights enacted under the GDPR.","127","","","","","127","","","",""
+"trackless","https://github.com/ascorbic/trackless","Add a GDPR friendly Google Analytics opt in/opt out button to your site","126","","","","","126","","","",""
+"gdpr-tracker","https://github.com/privacyradius/gdpr-tracker","A crowdsourced directory tracking the GDPR compliance of cloud services and subprocessors","125","","","","","125","","","",""
+"CloudKitGDPR","https://github.com/arturgrigor/CloudKitGDPR","Framework for allowing users to manage data stored in iCloud","125","","","","","125","","","",""
+"RaspiSecurity","https://github.com/erogol/RaspiSecurity","Home Surveillance for Raspberry","124","","","","","","","","","124"
+"Umbrella_android","https://github.com/securityfirst/Umbrella_android","Digital and Physical Security Advice App","124","","","","","","","124","",""
+"opensanctions","https://github.com/alephdata/opensanctions","An open database of persons of interest and politically exposed persons","123","","","","","","","123","",""
+"census-data-downloader","https://github.com/datadesk/census-data-downloader","Download U.S. census data and reformat it for humans","122","","","","","","","122","",""
+"robovision","https://github.com/stoic1979/robovision","AI and machine leaning based computer vision for a robot","117","","","","","","","","","117"
+"VXG.Media.SDK.Android","https://github.com/VideoExpertsGroup/VXG.Media.SDK.Android","Market leading Android SDK with encoding, streaming playback functionality","116","","","","","","","","","116"
+"wechatAppDemo","https://github.com/magic007/wechatAppDemo","demo, , SDK DEMO","109","","109","","","","","","",""
+"journalism-syllabi","https://github.com/dannguyen/journalism-syllabi","Computer Assisted Reporting and Data Journalism Syllabuses, compiled by Dan Nguyen","107","","","","","","","107","",""
+"forget-db","https://github.com/OwenMelbz/forget-db","A simple GDPR inspired tool to anonymise confidential database data.","105","","","","","105","","","",""
+"gdpr-rails","https://github.com/ziptofaf/gdpr-rails","An example project on building a GDPR compliant application","105","","","","","105","","","",""
+"OpenYOLO-Android","https://github.com/openid/OpenYOLO-Android","Android protocol for credential exchange and update You Only Login Once","105","","105","","","","","","",""
+"CookieScanner","https://github.com/CovenantSQL/CookieScanner","Cookie Scanner for GDPR compliance","104","","","","","104","","","",""
+"thunder-distribution","https://github.com/BurdaMagazinOrg/thunder-distribution","A Drupal based platform for professional publishers","104","","","","","","","104","",""
+"external-auth-server","https://github.com/travisghansen/external-auth-server","easy auth for reverse proxies","102","","102","","","","","","",""
+"cbs","https://github.com/IFRCGo/cbs","Red Cross Community Based Surveillance","98","","","","","","","","","98"
+"pai","https://github.com/ParadoxAlarmInterface/pai","Paradox Magellan, Spectra and EVO, with MQTT, Signal, Pushbullet, Pushover and others","96","","","","","","","","","96"
+"MyOIDC","https://github.com/monkeyk/MyOIDC","OIDC ,","95","","95","","","","","","",""
+"PiCamNN","https://github.com/PiSimo/PiCamNN","Survelliance system with deep learning based people detection (YOLO)","93","","","","","","","","","93"
+"are-you-fake-news","https://github.com/N2ITN/are-you-fake-news","Bias detection in the news. Back and front end for areyoufakenews.com","92","","","","","","","92","",""
+"arkid-core","https://github.com/longguikeji/arkid-core","(LDAP, OAuth , SAML, OpenID) WEB","89","","89","","","","","","",""
+"lookup","https://github.com/wireservice/lookup","A repository of journalist s lookup tables.","86","","","","","","","86","",""
+"AspNet.Security.OpenId.Providers","https://github.com/aspnet-contrib/AspNet.Security.OpenId.Providers","OpenID . authentication middleware for ASP.NET Core","85","","85","","","","","","",""
+"journalize","https://github.com/rdmurphy/journalize","newspaper A collection of JavaScript functions useful for making prose reader friendly.","84","","","","","","","84","",""
+"masq","https://github.com/dennisreimann/masq","Mountable Rails engine that provides OpenID server/identity provider functionality","83","","83","","","","","","",""
+"ozonebase","https://github.com/ozonesecurity/ozonebase","Open Source, MIT licensed, SDK for Video Innovation CCTV solutions http //ozone.network","79","","","","","","","","","79"
+"pastpages.org","https://github.com/pastpages/pastpages.org","The news homepage archive","78","","","","","","","78","",""
+"snowball","https://github.com/thomaspark/snowball","A WordPress plugin for making immersive longform articles","78","","","","","","","78","",""
+"AspNetCoreHybridFlowWithApi","https://github.com/damienbod/AspNetCoreHybridFlowWithApi","ASP.NET Core MVC application using API, OpenID Connect Hybrid flow , second API, Code Flow with PKCE","77","","77","","","","","","",""
+"android-consent-sdk","https://github.com/smartlook/android-consent-sdk","Configurable consent SDK for Android","77","","","","77","","","","",""
+"rpicam","https://github.com/Lallassu/rpicam","Raspberry PI Surveillance Automation","77","","","","","","","","","77"
+"GDPRConsent","https://github.com/DavidEdwards/GDPRConsent","(missing)","76","","","","76","","","","",""
+"python-for-data-and-media-communication-gitbook","https://github.com/hupili/python-for-data-and-media-communication-gitbook","An open source book on Python tailed for communication students with zero background","72","","","","","","","72","",""
+"react-oidc-client-js","https://github.com/skoruba/react-oidc-client-js","OpenID Connect (OIDC) client with React and typescript","70","","70","","","","","","",""
+"ihavecookies","https://github.com/ketanmistry/ihavecookies","jQuery plugin to display cookie consent message (EU regulation)","67","","","","67","","","","",""
+"Cyber-Camera","https://github.com/amirfefer/Cyber-Camera","Turns any webcam into a smart security camera for home surveillance","54","","","","","","","","","54"
+"AspNetCoreMvcAngular","https://github.com/damienbod/AspNetCoreMvcAngular","ASP.NET Core MVC with angular in MVC View OpenID Connect Hybrid Flow","49","","49","","","","","","",""
+"data-protection-mapping-project","https://github.com/microsoft/data-protection-mapping-project","Open Source Data Protection/Privacy Regulatory Mapping Project","48","","","48","","","","","",""
+"SimpleIdentityServer","https://github.com/thabart/SimpleIdentityServer","OpenId Uma Oauth . providers SCIM . RFID reader (DEPRECATED)","48","","48","","","","","","",""
+"GDPR-Cookie-Compliance","https://github.com/Jyxon/GDPR-Cookie-Compliance","A library to comply with the GDPR law.","46","","","","46","","","","",""
+"Umbrella_content","https://github.com/securityfirst/Umbrella_content","Content Used In Umbrella App","42","","","","","","","","","42"
+"awesome-hacktivism","https://github.com/Nipher/awesome-hacktivism","A curated list about Hacktivism.","40","","","","","","","","","40"
+"The-Eye","https://github.com/EgeBalci/The-Eye","Simple security surveillance script for linux distributions.","34","","","","","","","","","34"
+"cia","https://github.com/Hack23/cia","Citizen Intelligence Agency","34","","","","","","","","","34"
+"databunker","https://github.com/paranoidguy/databunker","Personally identifiable information (PII) storage service built to comply with GDPR and CCPA","28","","","28","","","","","",""
+"vulture","https://github.com/rndinfosecguy/vulture","WhatsApp Online Tracker","26","","","","","","","","","26"
+"piCamBot","https://github.com/scaidermern/piCamBot","Security camera based on a raspberry pi and Telegram, controllable by smartphone","24","","","","","","","","","24"
+"theWorldInSafety","https://github.com/damien911224/theWorldInSafety","Surveillance System Against Violence","20","","","","","","","","","20"
+"Cookie-Glasses","https://github.com/Perdu/Cookie-Glasses","This browser extension shows you whether consent registered by cookie banners of IAB Europe s Transparency Consent Framework corresponds to your choice","19","","","","19","","","","",""
+"javascript-cookie-control","https://github.com/netgen/javascript-cookie-control","Javascript module for controling cookie consent on your website","13","","","","13","","","","",""
+"simple-cookie-choices","https://github.com/caiojhonny/simple-cookie-choices","A simple cookie choices thought to the GDPR rules","12","","","","12","","","","",""
+"cookie-consent-box","https://github.com/adriandmitroca/cookie-consent-box","A tiny, dependency free cookie box widget that helps you to be GDPR complaint after including kB of code (gzipped)","10","","","","10","","","","",""
+"ConsentDialog","https://github.com/saiakhil90/ConsentDialog","A library for building Custom Consent Form for Android","9","","","","9","","","","",""
+"cmp","https://github.com/ConsentStack/cmp","Open source, developer focused human centric consent management platform.","8","","","","8","","","","",""
+"plg_fields_privacycheckbox","https://github.com/zero-24/plg_fields_privacycheckbox","This Joomla plugin lets you create new fields of type privacycheckbox in any extensions where custom fields are supported.","7","","","","7","","","","",""
+"android-gdpr-library","https://github.com/gdprsdk/android-gdpr-library","GPDR Consent Management Provider for Android","6","","","","6","","","","",""
+"react-native-ad-consent","https://github.com/birgernass/react-native-ad-consent","Uses the Google Mobile Ads Consent SDK to ask users for GDPR compliant ad consent. Supports iOS and Android.","6","","","","6","","","","",""
+"research.package","https://github.com/cph-cachet/research.package","A Flutter package implementing support for surveys like ResearchStack and ResearchKit","6","","","","6","","","","",""
+"oneint","https://github.com/oneint/oneint","Data Privacy platform that helps create and manage DSR requests from the users","4","","","4","","","","","",""
+"ccpa-checklist","https://github.com/privacyradius/ccpa-checklist","The CCPA Checklist","3","","","3","","","","","",""
+"cookie-mgmnt","https://github.com/L3-iGrant/cookie-mgmnt","This is the cookie management repo for implementing IAB/GDPR compliant cookie management functions","3","","","","3","","","","",""
+"omniledger","https://github.com/c4dt/omniledger","Frontend for the dedis/cothority blockchain with an accent on identity and consent management","3","","","","3","","","","",""
+"CCPA-Out-Opts","https://github.com/Cauchon/CCPA-Out-Opts","The California Consumer Privacy Act (CCPA) provides consumers with the right to opt out and stop businesses from selling their personal information. This repo will attempt to compile a list of all sites supporting it and opt out links.","2","","","2","","","","","",""
+"get-consent","https://github.com/Kiosked/get-consent","GDPR consent string fetcher","2","","","2","","","","","",""
+"origami-consent","https://github.com/papertank/origami-consent","Laravel model consent helper package (GDPR inspired)","2","","","","2","","","","",""
+"consent","https://github.com/dnulnets/consent","A consent handling web application and a PoA ethereum blockchain prototype using express on node.","2","","","","2","","","","",""
+"has-consent","https://github.com/Kiosked/has-consent","GDPR consent string validation library","2","","","","2","","","","",""
+"consentua-component","https://github.com/mrsideshowjack/consentua-component","Get and set user consents with Consentua","2","","","","2","","","","",""
+"Zone-Cookie","https://github.com/zekinah/Zone-Cookie","This plugin is for GDPR and CCPA Privacy Laws. It is user friendly and very simple to used. It provides a control to your client data request and protection, messages and layout.","1","","","1","","","","","",""
+"app-web-auth3","https://github.com/pryv/app-web-auth3","Vuejs implementation of authentication web app","1","","","","1","","","","",""
+"consent-form-builder","https://github.com/barnardos/consent-form-builder","Allow a Barnardo s researcher to enter details about an upcoming research session to produce consent forms.","1","","","","1","","","","",""
+"tcf-types","https://github.com/mairdumont-netletix/tcf-types","IAB s Transparency Consent Framework types in TypeScript","1","","","","1","","","","",""
+"tcf-stub","https://github.com/mairdumont-netletix/tcf-stub","This package provides a TCFv CMP Stub in Typescript.","1","","","","1","","","","",""
+"cookie-consent-box-wordpress","https://github.com/adriandmitroca/cookie-consent-box-wordpress","Lightweight and good looking cookie consent box that helps you to be GDPR complaint.","1","","","","1","","","","",""
+"cookie-consent","https://github.com/kraftvaerk/cookie-consent","A solution to the EU Cookie Law","1","","","","1","","","","",""
+"COB-FAKER","https://github.com/dinodev76/COB-FAKER","COBOL port (partial) of the Python Faker project used to generate or anonymize test data requiring names, addresses, etc.","0","","","0","","","","","",""
+"ccpa-android-sdk","https://github.com/anuragdalia/ccpa-android-sdk","CCPA Android SDK to ask for users preferences","0","","","0","","","","","",""

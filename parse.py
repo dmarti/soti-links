@@ -2,6 +2,7 @@
 
 import json
 import os
+import string
 import sys
 
 def snarf_json(filename):
@@ -11,6 +12,12 @@ def snarf_json(filename):
     except:
         raise
 
+def sanitize(st):
+    try:
+        st = ' '.join(st.split())
+        return st.strip()
+    except:
+        return("(missing)")
 
 class ProjectInfo(dict):
     def __init__(self, d):
@@ -19,27 +26,29 @@ class ProjectInfo(dict):
    
     @property
     def name(self):
-        return self.get('name', '(missing project name)')
+        return sanitize(self.get('name', '(missing project name)'))
 
     @property
     def url(self):
-        return self.get('repository_url',
-                        self.get('html_url', '(missing project url)'))
+        for k in ('html_url', 'homepage'):
+            try:
+                return sanitize(self.get(k))
+            except:
+                pass
+        return("NO_URL")
 
     @property
     def description(self):
-        "Remove extra whitespace"
-        s = self.get('description')
-        if s:
-            return ' '.join(s.split())
-        else:
-            return '(missing project description)'
+        return sanitize(self.get('description'))
 
     @property
     def size(self):
         total = 0
         for metric in ('dependent_repos_count', 'dependents_count', 'stargazers_count'):
-            total += self.get(metric, 0)
+            try:
+                total += int(self.get(metric, 0))
+            except:
+                pass
         return total
 
     def __repr__(self):

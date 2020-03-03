@@ -22,8 +22,10 @@ scores/% : Makefile ./parse.py data/github/% data/libraries/%
 	mkdir -p scores
 	./parse.py $@ > $@
 
-clean : 
+clean :
+	find . -type f -size 0 -delete
 	rm -rf scores
+	rmdir data || true
 	rm -f results.html results.csv
 
 pristine : clean

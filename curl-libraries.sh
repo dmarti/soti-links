@@ -1,5 +1,8 @@
 #!/usr/bin/bash
 
+set -e
+set -x
+
 fail() {
 	echo $*
 	exit 1
@@ -17,6 +20,7 @@ outdir=$(dirname $1)
 mkdir -p $outdir
 keyword=$(basename $1)
 
+# API key is required.
 curl --silent --output $1 \
-	https://libraries.io/api/search?q=$keyword&api_key=$LIBRARIES_API_KEY
+	"https://libraries.io/api/search?q=$keyword&api_key=$LIBRARIES_API_KEY"
 
