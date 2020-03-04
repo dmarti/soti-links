@@ -7,12 +7,16 @@ surveillance
 journalism
 identity
 sso
-data 
-control 
-ownership
-content
+data control 
+data ownership
+data broker
+data exchange
+data sharing
+data protection
+data value
+digital life
 decentralize
 identifier
-discovery
-disinformation
-misinformation
+content discovery
+content disinformation
+content misinformation
