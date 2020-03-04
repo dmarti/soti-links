@@ -7,3 +7,12 @@ surveillance
 journalism
 identity
 sso
+data 
+control 
+ownership
+content
+decentralize
+identifier
+discovery
+disinformation
+misinformation
