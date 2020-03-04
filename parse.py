@@ -63,6 +63,8 @@ class SearchResult(list):
         except TypeError:
             for item in d:
                 self.append(ProjectInfo(item))
+        except KeyError:
+            pass
 
 
 if __name__ == '__main__':

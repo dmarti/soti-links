@@ -83,7 +83,10 @@ class TableRow(object):
         result = "<tr><td><b><a href='%s'>%s</a>:</b>&nbsp;%s</td><td>%d</td>" % (self.url, self.name, self.description, self.totalscore)
         for j in keywords: 
             try:
-                result += "<td>%d</td>" % scores[self.url][j]
+                s = scores[self.url][j]
+                if not s:
+                    s = ''
+                result += "<td>%s</td>" % s
             except KeyError:
                 result += "<td></td>"
         result += "</tr>"
@@ -110,6 +113,9 @@ descriptions = {}
 keywords = {}
 
 format = sys.argv[1]
+
+def clean_kw(w):
+    return (' ').join(w.split('+'))
 
 for line in sys.stdin:
     try:
@@ -142,7 +148,7 @@ if (format == 'html'):
 
     print('</style></head><body><table><tr><th>Project</th><th>Total score</th>')
     for w in keywords:
-        print("<th>%s</th>" % w)
+        print("<th>%s</th>" % clean_kw(w))
     print("</tr>")
 
     for r in rows:
@@ -153,7 +159,7 @@ if (format == 'html'):
 else: # CSV version
     sys.stdout.write('"Name","URL","Description","Total score"')
     for w in keywords:
-        sys.stdout.write(',"%s"' % w)
+        sys.stdout.write(',"%s"' % clean_kw(w))
     sys.stdout.write("\n")
     for r in rows:
         if not 'http' in r.url:
