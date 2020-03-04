@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from datetime import datetime
+from math import log
 import re
 import sys
 
@@ -80,7 +81,7 @@ class TableRow(object):
         return self.totalscore < other.totalscore
 
     def as_html(self):
-        result = "<tr><td><b><a href='%s'>%s</a>:</b>&nbsp;%s</td><td>%d</td>" % (self.url, self.name, self.description, self.totalscore)
+        result = "<tr><td><b><a href='%s'>%s</a>:</b>&nbsp;%s</td><td>%s</td>" % (self.url, self.name, self.description, self.totalscore)
         for j in keywords: 
             try:
                 s = scores[self.url][j]
@@ -124,11 +125,18 @@ for line in sys.stdin:
         print("Unexpected line: %s" % line, file=sys.stderr)
     keywords[keyword] = 1
     try:
-        scores[url][keyword] = int(score)
-        totalscore[url] += int(score)
+        score = max(10, int(score))
+    except:
+        score = 10
+    score = round(log(score, 10), 1)
+
+    try:
+        scores[url][keyword] = score
+        totalscore[url] += score
+        totalscore[url] = round(totalscore[url], 1)
     except KeyError:
-        scores[url] = {keyword: int(score)}
-        totalscore[url] = int(score)
+        scores[url] = {keyword: score}
+        totalscore[url] = score
     except ValueError:
         pass
     names[url] = name
