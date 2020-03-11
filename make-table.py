@@ -63,6 +63,17 @@ table tfoot .links a{
 }
 '''
 
+def weight(keyword, scores):
+    projects = scores.keys()
+    match_count = 0
+    for k in projects:
+        try:
+            tmp = scores[k][keyword]
+            match_count += 1
+        except KeyError:
+            pass
+    # print("keyword %s occurs %d times in %d projects" % (keyword, match_count, len(projects)))
+    return log(len(projects) / match_count)
 
 class TableRow(object):
     def __init__(self, url, name, description, totalscore, scores):
@@ -71,11 +82,6 @@ class TableRow(object):
         self.description = description
         self.totalscore = totalscore
         self.scores = []
-        for w in keywords:
-            try:
-                self.scores.append(scores[url][w])
-            except KeyError:
-                self.scores.append(0)
 
     def __lt__(self, other):
         return self.totalscore < other.totalscore
@@ -84,7 +90,7 @@ class TableRow(object):
         result = "<tr><td><b><a href='%s'>%s</a>:</b>&nbsp;%s</td><td>%s</td>" % (self.url, self.name, self.description, self.totalscore)
         for j in keywords: 
             try:
-                s = scores[self.url][j]
+                s = round(scores[self.url][j] * weight(j, scores), 1)
                 if not s:
                     s = ''
                 result += "<td>%s</td>" % s
@@ -141,6 +147,15 @@ for line in sys.stdin:
         pass
     names[url] = name
     descriptions[url] = description
+
+for url in names.keys():
+    totalscore[url] = 0
+    for keyword in keywords.keys():
+        try:
+            totalscore[url] += scores[url][keyword] * weight(keyword, scores)
+        except KeyError:
+            pass
+    totalscore[url] = round(totalscore[url], 1)
 
 keywords = list(keywords.keys())
 keywords.sort()
