@@ -4,6 +4,9 @@ SCORES = $(KEYWORDS:%=scores/%)
 
 all : results.html results.csv
 
+preview : results.html
+	firefox results.html
+
 results.html : make-table.py scores
 	cat $(SCORES) | ./make-table.py html > $@
 
