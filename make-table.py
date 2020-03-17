@@ -61,6 +61,15 @@ table tfoot .links a{
   padding: 2px 8px;
   border-radius: 5px;
 }
+
+th  {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after {
+    content: "▴▾"
+}
 '''
 
 def weight(keyword, scores):
@@ -122,7 +131,7 @@ keywords = {}
 format = sys.argv[1]
 
 def clean_kw(w):
-    return (' ').join(w.split('+'))
+    return ('&nbsp;').join(w.split('+'))
 
 for line in sys.stdin:
     try:
@@ -168,8 +177,10 @@ rows.sort(reverse=True)
 if (format == 'html'):
     print('<html><head><title>Results</title><style type="text/css">')
     print(tablestyle)
-
-    print('</style></head><body><table><tr><th>Project</th><th>Total score</th>')
+    print('</style>')
+    print('<script src="sorttable.js"></script>')
+    print('</head><body><table class="sortable">')
+    print('<tr><th>Project</th><th>Total&nbsp;score</th>')
     for w in keywords:
         print("<th>%s</th>" % clean_kw(w))
     print("</tr>")
