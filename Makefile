@@ -15,10 +15,10 @@ results.csv : make-table.py scores
 
 scores : $(SCORES)
 
-data/github/% : curl-github.sh
+data/github/% :
 	./curl-github.sh $@
 
-data/libraries/% : curl-libraries.sh
+data/libraries/% :
 	./curl-libraries.sh $@
 
 scores/% : Makefile ./parse.py data/github/% data/libraries/% 

@@ -10,5 +10,5 @@ keyword=$(basename $1)
 
 curl --silent --output $1 \
 	-H "Accept: application/vnd.github.mercy-preview+json" \
-	https://api.github.com/search/repositories?q=topic:$keyword \
+	https://api.github.com/search/repositories?q=$keyword \
 
